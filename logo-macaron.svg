@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="katman_2" data-name="katman 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1136.09 140.12">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-5 {
+        fill: #1d1d1b;
+        font-family: TTNormsPro-ExtraBold, 'TT Norms Pro';
+        font-size: 126.23px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="katman_1" data-name="katman 1">
+    <text class="cls-5" transform="translate(0 107.3)"><tspan x="0" y="0">M</tspan><tspan class="cls-3" x="117.4" y="0">A</tspan><tspan class="cls-1" x="207.02" y="0">CARON MO</tspan><tspan class="cls-2" x="949.9" y="0">D</tspan><tspan class="cls-4" x="1043.31" y="0">A</tspan></text>
+  </g>
+</svg>
