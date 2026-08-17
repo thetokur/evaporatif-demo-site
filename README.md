@@ -11,7 +11,7 @@ Fabrika, atölye, depo ve endüstriyel tesisler için kompresörsüz, **%80'e va
 Bu site tamamen statik HTML/CSS/JS'ten oluşmaktadır ve **GitHub Pages** üzerinde doğrudan yayınlanabilir.
 
 ```
-https://<thetokur>.github.io/<evaporatif-demo-site>/
+https://thetokur.github.io/evaporatif-demo-site/
 ```
 
 ---
