@@ -1,0 +1,2697 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evaporatif — Endüstriyel Evaporatif Soğutma Sistemleri</title>
+  <meta name="description" content="Evaporatif Soğutma Sistemleri A.Ş. — fabrika ve endüstriyel tesisler için kompresörsüz, %80'e varan enerji tasarruflu evaporatif soğutma çözümleri. CE belgeli, Türkiye üretimi." />
+  <meta name="keywords" content="evaporatif soğutma, endüstriyel klima, fabrika soğutma, enerji tasarrufu, kompresörsüz soğutma, EVA 20, EVA 30, EVA 40, EVA 60, EVA 80" />
+
+  <!-- Futura Font Family -->
+  <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin />
+  <link href="https://fonts.cdnfonts.com/css/futura-std-4" rel="stylesheet" />
+
+  <style>
+    /* ===================================================
+       FUTURA FONT FAMILY STACK
+    =================================================== */
+    @font-face {
+      font-family: 'Futura';
+      font-style: normal;
+      font-weight: 300;
+      src: local('Futura Light'), local('Futura-Light'), local('Futura Std Light'), url('https://fonts.cdnfonts.com/s/30938/FuturaStdLight.woff') format('woff');
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Futura';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Futura'), local('Futura-Book'), local('Futura Book'), local('Futura Medium'), local('Futura-Medium'), local('Futura Std Book'), url('https://fonts.cdnfonts.com/s/30938/FuturaStdBook.woff') format('woff');
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Futura';
+      font-style: normal;
+      font-weight: 500;
+      src: local('Futura Medium'), local('Futura-Medium'), local('Futura Std Medium'), url('https://fonts.cdnfonts.com/s/30938/FuturaStdMedium.woff') format('woff');
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Futura';
+      font-style: normal;
+      font-weight: 600;
+      src: local('Futura Heavy'), local('Futura-Heavy'), local('Futura Std Heavy'), url('https://fonts.cdnfonts.com/s/30938/FuturaStdHeavy.woff') format('woff');
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Futura';
+      font-style: normal;
+      font-weight: 700;
+      src: local('Futura Bold'), local('Futura-Bold'), local('Futura Std Bold'), url('https://fonts.cdnfonts.com/s/30938/FuturaStdBold.woff') format('woff');
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Futura';
+      font-style: normal;
+      font-weight: 800;
+      src: local('Futura Extra Bold'), local('Futura-ExtraBold'), local('Futura-CondensedExtraBold'), local('Futura Std ExtraBold'), url('https://fonts.cdnfonts.com/s/30938/FuturaStdExtraBold.woff') format('woff');
+      font-display: swap;
+    }
+
+    /* ===================================================
+       CSS RESET & DESIGN TOKENS
+    =================================================== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue:       #325ba4;
+      --blue-dark:  #1e3d72;
+      --blue-mid:   #2a4f92;
+      --blue-light: #4a78c4;
+      --blue-pale:  #e8eef8;
+      --white:      #ffffff;
+      --gray-50:    #f8f9fb;
+      --gray-100:   #f1f3f7;
+      --gray-200:   #e2e6ef;
+      --gray-400:   #9aa3b8;
+      --gray-600:   #5a6480;
+      --text-dark:  #1a2038;
+      --text-mid:   #3d4a6b;
+      --text-light: #6b7a9a;
+      --shadow-sm:  0 1px 4px rgba(50,91,164,.08);
+      --shadow-md:  0 4px 20px rgba(50,91,164,.12);
+      --shadow-lg:  0 12px 48px rgba(50,91,164,.16);
+      --shadow-xl:  0 24px 80px rgba(50,91,164,.22);
+      --radius-sm:  6px;
+      --radius-md:  12px;
+      --radius-lg:  20px;
+      --radius-xl:  32px;
+      --transition: all .3s cubic-bezier(.4,0,.2,1);
+      --font: 'Futura', 'Futura Std', 'Futura-Medium', 'Futura-Bold', 'Century Gothic', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font);
+      color: var(--text-dark);
+      background: var(--white);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+    img { display: block; max-width: 100%; }
+    a { text-decoration: none; color: inherit; }
+
+    /* ===================================================
+       SCROLL REVEAL
+    =================================================== */
+    .reveal { opacity: 0; transform: translateY(36px); transition: opacity .7s cubic-bezier(.4,0,.2,1), transform .7s cubic-bezier(.4,0,.2,1); }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal-left { opacity: 0; transform: translateX(-40px); transition: opacity .7s .1s cubic-bezier(.4,0,.2,1), transform .7s .1s cubic-bezier(.4,0,.2,1); }
+    .reveal-left.visible { opacity: 1; transform: translateX(0); }
+    .reveal-right { opacity: 0; transform: translateX(40px); transition: opacity .7s .1s cubic-bezier(.4,0,.2,1), transform .7s .1s cubic-bezier(.4,0,.2,1); }
+    .reveal-right.visible { opacity: 1; transform: translateX(0); }
+    .delay-1 { transition-delay: .15s !important; }
+    .delay-2 { transition-delay: .28s !important; }
+    .delay-3 { transition-delay: .41s !important; }
+    .delay-4 { transition-delay: .54s !important; }
+
+    /* ===================================================
+       LAYOUT
+    =================================================== */
+    .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .section-pad { padding: 96px 0; }
+    section { scroll-margin-top: 76px; }
+    #hero { scroll-margin-top: 0; }
+
+    .section-label {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: .72rem; font-weight: 700; letter-spacing: .14em;
+      text-transform: uppercase; color: var(--blue); margin-bottom: 14px;
+    }
+    .section-label::before { content: ''; display: block; width: 20px; height: 2px; background: var(--blue); border-radius: 2px; }
+
+    .section-title {
+      font-size: clamp(1.75rem, 3.5vw, 2.6rem);
+      font-weight: 800; color: var(--text-dark); line-height: 1.18;
+      letter-spacing: -.02em; margin-bottom: 18px;
+    }
+    .section-sub { font-size: 1.05rem; color: var(--text-light); max-width: 560px; line-height: 1.75; }
+
+    /* ===================================================
+       PAGE SYSTEM (Ana Sayfa / Ürünler / İletişim toggle)
+    =================================================== */
+    #page-home { display: block; }
+    #page-products { display: none; }
+    #page-contact { display: none; }
+    body.products-active #page-home { display: none; }
+    body.products-active #page-products { display: block; }
+    body.products-active #page-contact { display: none; }
+    body.contact-active #page-home { display: none; }
+    body.contact-active #page-products { display: none; }
+    body.contact-active #page-contact { display: block; }
+
+    /* ===================================================
+       NAVBAR
+    =================================================== */
+    #navbar {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      background: rgba(255,255,255,.93);
+      backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid transparent; transition: var(--transition);
+    }
+    #navbar.scrolled { border-bottom-color: var(--gray-200); box-shadow: var(--shadow-sm); }
+
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 72px; gap: 16px; }
+    .nav-logo img { height: 44px; width: auto; object-fit: contain; }
+
+    .nav-links { display: flex; align-items: center; gap: 28px; list-style: none; }
+    .nav-links li { display: flex; align-items: center; }
+    .nav-links a {
+      font-size: .85rem; font-weight: 700; color: var(--text-mid);
+      transition: var(--transition); position: relative; padding-bottom: 2px;
+      letter-spacing: .04em; cursor: pointer;
+    }
+    .nav-links a::after {
+      content: ''; position: absolute; bottom: -2px; left: 0;
+      width: 0; height: 2px; background: var(--blue); border-radius: 2px; transition: width .3s;
+    }
+    .nav-links a:hover, .nav-links a.active-nav, .nav-item-dropdown:hover > a { color: var(--blue); }
+    .nav-links a:hover::after, .nav-links a.active-nav::after, .nav-item-dropdown:hover > a::after { width: 100%; }
+    .nav-links a.active-nav::after { background: var(--blue); }
+
+    /* Nav Item Dropdown (Ürünler) */
+    .nav-item-dropdown { position: relative; display: flex; align-items: center; }
+    .nav-dropdown-trigger { display: inline-flex; align-items: center; gap: 4px; }
+    .nav-chevron { width: 12px; height: 12px; stroke: currentColor; stroke-width: 2.5; fill: none; transition: transform .25s cubic-bezier(.4,0,.2,1); }
+    .nav-item-dropdown:hover .nav-chevron { transform: rotate(180deg); }
+
+    .nav-dropdown-menu {
+      position: absolute; top: calc(100% + 14px); left: 50%;
+      transform: translateX(-50%) translateY(8px);
+      background: var(--white); border: 1px solid var(--gray-200);
+      border-radius: 16px; box-shadow: 0 20px 48px rgba(26,32,56,.14);
+      padding: 16px; display: flex; gap: 18px; align-items: stretch;
+      width: 410px; opacity: 0; visibility: hidden; pointer-events: none;
+      transition: all .25s cubic-bezier(.4,0,.2,1); z-index: 1100;
+    }
+    .nav-dropdown-menu::before {
+      content: ''; position: absolute; top: -16px; left: 0; right: 0; height: 16px;
+    }
+    .nav-item-dropdown:hover .nav-dropdown-menu {
+      opacity: 1; visibility: visible; pointer-events: auto;
+      transform: translateX(-50%) translateY(0);
+    }
+    .nav-dropdown-img {
+      width: 130px; background: var(--gray-50); border: 1px solid var(--gray-200);
+      border-radius: 10px; padding: 12px 8px; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; text-align: center;
+    }
+    .nav-dropdown-img img { width: 100%; height: 95px; object-fit: contain; margin-bottom: 6px; }
+    .nav-dropdown-badge { font-size: .7rem; font-weight: 800; color: var(--blue); letter-spacing: .06em; }
+    .nav-dropdown-list {
+      flex: 1; display: flex; flex-direction: column; justify-content: center;
+      gap: 2px; list-style: none; padding: 0; margin: 0;
+    }
+    .nav-dropdown-item a {
+      display: flex !important; align-items: center; gap: 8px;
+      padding: 6px 10px; font-size: .86rem; font-weight: 700;
+      color: var(--text-dark) !important; border-radius: 6px;
+      transition: all .18s ease; cursor: pointer; white-space: nowrap;
+    }
+    .nav-dropdown-item a::after { display: none !important; }
+    .nav-dropdown-item a .play-icon {
+      width: 0; height: 0; border-top: 4px solid transparent;
+      border-bottom: 4px solid transparent; border-left: 6px solid var(--text-mid);
+      transition: transform .18s, border-left-color .18s; flex-shrink: 0;
+    }
+    .nav-dropdown-item a:hover {
+      background: var(--blue-pale); color: var(--blue) !important; transform: translateX(3px);
+    }
+    .nav-dropdown-item a:hover .play-icon {
+      border-left-color: var(--blue); transform: translateX(2px);
+    }
+    .nav-dropdown-footer {
+      border-top: 1px solid var(--gray-100); padding-top: 6px; margin-top: 4px;
+    }
+    .nav-dropdown-footer a {
+      font-size: .78rem; color: var(--blue) !important; font-weight: 800;
+      display: flex; align-items: center; gap: 4px; padding: 4px 10px;
+    }
+    .nav-dropdown-footer a::after { display: none !important; }
+
+    /* E-Katalog nav item */
+    .nav-katalog {
+      display: inline-flex; align-items: center; gap: 7px;
+      font-size: .8rem; font-weight: 700; color: var(--text-mid);
+      letter-spacing: .04em; cursor: pointer; padding-bottom: 2px;
+      position: relative; transition: var(--transition);
+    }
+    .nav-katalog::after {
+      content: ''; position: absolute; bottom: -2px; left: 0;
+      width: 0; height: 2px; background: var(--blue); border-radius: 2px; transition: width .3s;
+    }
+    .nav-katalog:hover { color: var(--blue); }
+    .nav-katalog:hover::after { width: 100%; }
+    .nav-katalog svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2.5; }
+
+    .nav-cta {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      background: var(--blue); color: var(--white) !important;
+      font-size: .84rem; font-weight: 700; height: 38px; padding: 0 18px !important;
+      border-radius: var(--radius-sm); transition: var(--transition);
+      white-space: nowrap; letter-spacing: .02em; line-height: 1;
+      box-sizing: border-box; text-decoration: none;
+    }
+    .nav-cta svg { flex-shrink: 0; display: block; }
+    .nav-cta:hover { background: var(--blue-dark) !important; transform: translateY(-1px); box-shadow: 0 6px 20px rgba(50,91,164,.35); }
+    .nav-cta::after { display: none !important; }
+
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; background: none; border: none; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: var(--text-dark); border-radius: 2px; transition: var(--transition); }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    .mobile-menu {
+      display: none; position: fixed; top: 72px; left: 0; right: 0;
+      background: var(--white); border-bottom: 1px solid var(--gray-200);
+      padding: 20px 24px 28px; z-index: 999; box-shadow: var(--shadow-md);
+      max-height: calc(100vh - 72px); overflow-y: auto;
+    }
+    .mobile-menu.open { display: block; }
+    .mobile-menu ul { list-style: none; }
+    .mobile-menu ul li { border-bottom: 1px solid var(--gray-100); }
+    .mobile-menu ul li:last-child { border: none; }
+    .mobile-menu ul a, .mobile-menu ul span {
+      display: block; padding: 14px 0; font-size: 1rem; font-weight: 700;
+      color: var(--text-mid); cursor: pointer; letter-spacing: .03em;
+      transition: color .2s ease;
+    }
+    .mobile-menu ul a.active-nav, .mobile-menu ul span.active-nav {
+      color: var(--blue);
+      font-weight: 800;
+    }
+    .mobile-dropdown-wrap { list-style: none; }
+    .mobile-link-row { display: flex; align-items: center; justify-content: space-between; cursor: pointer; padding: 14px 0; }
+    .mobile-link-row .mobile-link { padding: 0; }
+    .mobile-arrow-icon { width: 18px; height: 18px; stroke: var(--text-mid); stroke-width: 2.2; fill: none; transition: transform .25s ease; }
+    .mobile-dropdown-wrap.open .mobile-arrow-icon { transform: rotate(180deg); stroke: var(--blue); }
+    .mobile-submenu { display: none; list-style: none; padding: 6px 0 10px 14px; border-left: 2px solid var(--blue-pale); margin: 0 0 8px 6px; }
+    .mobile-dropdown-wrap.open .mobile-submenu { display: block; }
+    .mobile-submenu li { border-bottom: none !important; }
+    .mobile-sublink { display: block; padding: 7px 0; font-size: .9rem; font-weight: 600; color: var(--text-mid); cursor: pointer; }
+    .mobile-sublink:hover { color: var(--blue); }
+    .mobile-sublink-all { display: block; padding: 8px 0 4px; font-size: .9rem; font-weight: 800; color: var(--blue); cursor: pointer; }
+    .mobile-cta { display: block; margin-top: 16px; background: var(--blue); color: var(--white) !important; text-align: center; padding: 14px; border-radius: var(--radius-sm); font-weight: 700; letter-spacing: .04em; }
+
+    /* Product Card Highlight */
+    @keyframes cardPulse {
+      0% { transform: scale(1); box-shadow: var(--shadow-sm); }
+      50% { transform: scale(1.02); box-shadow: 0 0 0 3px var(--blue), var(--shadow-lg); }
+      100% { transform: scale(1); box-shadow: var(--shadow-sm); }
+    }
+    .product-card.highlight-card { animation: cardPulse 1.6s ease; border-color: var(--blue); }
+
+    /* ===================================================
+       BUTTONS
+    =================================================== */
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--blue); color: var(--white); font-size: .95rem; font-weight: 700;
+      padding: 14px 30px; border-radius: var(--radius-sm); transition: var(--transition);
+      border: none; cursor: pointer; letter-spacing: .03em; font-family: var(--font);
+    }
+    .btn-primary:hover { background: var(--blue-dark); transform: translateY(-2px); box-shadow: 0 8px 28px rgba(50,91,164,.4); }
+    .btn-secondary {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: transparent; color: var(--blue); font-size: .95rem; font-weight: 700;
+      padding: 14px 24px; border-radius: var(--radius-sm);
+      border: 1.5px solid var(--blue); transition: var(--transition); cursor: pointer; letter-spacing: .03em;
+    }
+    .btn-secondary:hover { background: var(--blue-pale); transform: translateY(-2px); }
+
+    /* ===================================================
+       HERO — FULL-SCREEN 3-PANEL BANNER SLIDER
+    =================================================== */
+    #hero {
+      position: relative; width: 100%;
+      /* Height = full viewport; navbar overlays via position:fixed, no padding needed here */
+      height: 100vh; min-height: 600px;
+      overflow: hidden;
+    }
+
+    /* ---- SLIDER TRACK — CSS Scroll-Snap & Touch Support ---- */
+    .banner-track {
+      display: flex; height: 100%; width: 100%;
+      overflow-x: auto; overflow-y: hidden;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
+      touch-action: pan-y pinch-zoom;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      cursor: grab;
+      user-select: none; -webkit-user-select: none;
+      outline: none;
+    }
+    .banner-track::-webkit-scrollbar { display: none; }
+    .banner-track.is-dragging {
+      cursor: grabbing;
+      scroll-snap-type: none;
+      scroll-behavior: auto;
+    }
+
+    /* ---- EACH SLIDE ---- */
+    .banner-slide {
+      position: relative; flex: 0 0 100%; width: 100%; min-width: 100%; height: 100%;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+      will-change: transform;
+      overflow: hidden; display: flex; align-items: stretch;
+    }
+
+    /* Background image for each slide */
+    .banner-slide-bg {
+      position: absolute; inset: 0;
+      background-size: cover; background-position: center;
+      transform: scale(1.06);
+      transition: transform 8s cubic-bezier(.25,.46,.45,.94);
+    }
+    .banner-slide.active .banner-slide-bg { transform: scale(1); }
+
+    /* Dark overlay gradient */
+    .banner-slide::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(
+        120deg,
+        rgba(8,16,44,.78) 0%,
+        rgba(18,34,80,.50) 50%,
+        rgba(0,0,0,.18) 100%
+      );
+      pointer-events: none;
+    }
+
+    /* ---- THREE CARD LAYOUT inside each slide ---- */
+    .banner-cards {
+      position: relative; z-index: 2;
+      display: grid;
+      grid-template-columns: 1.6fr 1fr 1fr;
+      gap: 0;
+      width: 100%; height: 100%; align-items: stretch;
+    }
+
+    /* Main content card (left, large)
+       padding-top: 72px navbar + 32px breathing = 104px               */
+    .banner-main-card {
+      padding: 104px 52px 48px;
+      display: flex; flex-direction: column; justify-content: center;
+      border-right: 1px solid rgba(255,255,255,.12);
+      overflow: hidden;
+    }
+
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.25);
+      color: rgba(255,255,255,.9); font-size: .7rem; font-weight: 700; letter-spacing: .1em;
+      text-transform: uppercase; padding: 5px 12px; border-radius: 100px; margin-bottom: 18px;
+      backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+      width: fit-content;
+    }
+    .hero-badge-dot { width: 6px; height: 6px; background: #60b4ff; border-radius: 50%; animation: pulse-dot 2s infinite; }
+    @keyframes pulse-dot { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.5;transform:scale(1.4)} }
+
+    .hero-title {
+      font-size: clamp(1.8rem, 3.2vw, 3rem); font-weight: 800; line-height: 1.1;
+      letter-spacing: -.03em; color: #fff; margin-bottom: 14px;
+      opacity: 0; transform: translateY(24px);
+      transition: opacity .7s .2s cubic-bezier(.4,0,.2,1), transform .7s .2s cubic-bezier(.4,0,.2,1);
+    }
+    .banner-slide.active .hero-title { opacity: 1; transform: translateY(0); }
+    .hero-title span { color: #7fc8ff; position: relative; }
+    .hero-title span::after {
+      content: ''; position: absolute; bottom: 2px; left: 0; right: 0;
+      height: 3px; background: linear-gradient(90deg,#7fc8ff,#60b4ff); border-radius: 2px; opacity: .5;
+    }
+
+    .hero-sub {
+      font-size: .92rem; color: rgba(255,255,255,.8); line-height: 1.7; margin-bottom: 24px; max-width: 460px;
+      opacity: 0; transform: translateY(20px);
+      transition: opacity .7s .35s cubic-bezier(.4,0,.2,1), transform .7s .35s cubic-bezier(.4,0,.2,1);
+    }
+    .banner-slide.active .hero-sub { opacity: 1; transform: translateY(0); }
+
+    .hero-actions {
+      display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 28px;
+      opacity: 0; transform: translateY(16px);
+      transition: opacity .7s .48s cubic-bezier(.4,0,.2,1), transform .7s .48s cubic-bezier(.4,0,.2,1);
+    }
+    .banner-slide.active .hero-actions { opacity: 1; transform: translateY(0); }
+    /* Ensure buttons inside hero-actions always visible */
+    .hero-actions .btn-primary, .hero-actions .btn-secondary {
+      position: relative; z-index: 3;
+    }
+
+    .hero-stats {
+      display: flex; gap: 28px;
+      padding-top: 20px; border-top: 1px solid rgba(255,255,255,.18);
+      opacity: 0;
+      transition: opacity .7s .6s cubic-bezier(.4,0,.2,1);
+    }
+    .banner-slide.active .hero-stats { opacity: 1; }
+    .hero-stat-num { font-size: 1.6rem; font-weight: 800; color: #fff; line-height: 1; letter-spacing: -.03em; margin-bottom: 3px; }
+    .hero-stat-label { font-size: .66rem; font-weight: 700; color: rgba(255,255,255,.6); text-transform: uppercase; letter-spacing: .08em; }
+
+    /* Info card (middle) — top padding accounts for navbar */
+    .banner-info-card {
+      padding: 104px 28px 48px;
+      display: flex; flex-direction: column; justify-content: center;
+      border-right: 1px solid rgba(255,255,255,.12);
+      background: rgba(0,0,0,.22); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      gap: 20px;
+    }
+    .banner-info-item { display: flex; align-items: flex-start; gap: 12px; }
+    .banner-info-icon {
+      width: 36px; height: 36px; background: rgba(255,255,255,.12);
+      border-radius: 9px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .banner-info-icon svg { width: 16px; height: 16px; stroke: #7fc8ff; fill: none; stroke-width: 2; }
+    .banner-info-label { font-size: .62rem; font-weight: 700; color: rgba(255,255,255,.5); text-transform: uppercase; letter-spacing: .1em; margin-bottom: 2px; }
+    .banner-info-val { font-size: .9rem; font-weight: 700; color: #fff; }
+
+    /* CTA card (right) — top padding accounts for navbar */
+    .banner-cta-card {
+      padding: 104px 28px 48px;
+      display: flex; flex-direction: column; justify-content: center; align-items: flex-start;
+      background: rgba(50,91,164,.25); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      gap: 16px;
+    }
+    .banner-cta-badge {
+      font-size: .6rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
+      color: #7fc8ff; border: 1px solid rgba(127,200,255,.3);
+      padding: 4px 12px; border-radius: 100px;
+    }
+    .banner-cta-title { font-size: 1rem; font-weight: 800; color: #fff; line-height: 1.3; }
+    .banner-cta-desc { font-size: .8rem; color: rgba(255,255,255,.65); line-height: 1.6; }
+    .banner-cta-energy {
+      display: flex; align-items: center; gap: 10px;
+      background: rgba(127,200,255,.12); border-radius: var(--radius-md); padding: 12px 14px;
+      border: 1px solid rgba(127,200,255,.2); width: 100%;
+    }
+    .banner-cta-energy-num { font-size: 1.8rem; font-weight: 800; color: #7fc8ff; line-height: 1; }
+    .banner-cta-energy-label { font-size: .68rem; color: rgba(255,255,255,.6); font-weight: 600; }
+
+    /* ---- SLIDER DOTS — bottom center ---- */
+    .banner-dots {
+      position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%);
+      z-index: 10; display: flex; gap: 8px; align-items: center;
+      pointer-events: all;
+    }
+    .banner-dot {
+      width: 8px; height: 8px; border-radius: 100px; background: rgba(255,255,255,.4);
+      cursor: pointer; transition: all .4s cubic-bezier(.4,0,.2,1); border: none; padding: 0;
+      flex-shrink: 0;
+    }
+    .banner-dot.active { background: #fff; width: 28px; }
+
+    /* ---- NAVIGATION ARROWS (Minimalist, Çerçevesiz, Şeffaf) ---- */
+    .banner-arrow {
+      position: absolute; top: 50%; z-index: 15;
+      width: 44px; height: 64px; transform: translateY(-50%);
+      display: flex; align-items: center; justify-content: center;
+      background: transparent;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      opacity: 0.45;
+      filter: drop-shadow(0 2px 5px rgba(0,0,0,0.6));
+      transition: opacity 0.25s ease, transform 0.25s ease;
+      outline: none;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .banner-arrow:hover {
+      opacity: 0.95;
+      transform: translateY(-50%) scale(1.15);
+    }
+    .banner-arrow:active {
+      opacity: 0.8;
+      transform: translateY(-50%) scale(0.92);
+    }
+    .banner-arrow svg {
+      width: 28px; height: 38px; stroke: #ffffff; fill: none; stroke-width: 2.2;
+      stroke-linecap: round; stroke-linejoin: round;
+      pointer-events: none;
+    }
+    .banner-arrow-prev { left: 16px; }
+    .banner-arrow-next { right: 16px; }
+
+    @media (max-width: 768px) {
+      .banner-arrow {
+        width: 36px; height: 48px;
+        opacity: 0.35;
+      }
+      .banner-arrow svg { width: 22px; height: 32px; stroke-width: 2.4; }
+      .banner-arrow-prev { left: 6px; }
+      .banner-arrow-next { right: 6px; }
+    }
+
+    /* Progress bar */
+    .banner-progress {
+      position: absolute; bottom: 0; left: 0; height: 3px;
+      background: linear-gradient(90deg, #60b4ff, #325ba4);
+      border-radius: 0 3px 3px 0;
+      width: 0%; z-index: 10;
+      pointer-events: none;
+      will-change: width;
+    }
+
+    /* ---- RESPONSIVE ---- */
+    @media (max-width: 1024px) {
+      .banner-cards { grid-template-columns: 1fr; }
+      .banner-info-card, .banner-cta-card { display: none; }
+      .banner-main-card { padding: 96px 36px 44px; border-right: none; }
+    }
+    @media (max-width: 768px) {
+      #hero { min-height: 520px; }
+      .banner-main-card { padding: 88px 24px 40px; text-align: center; }
+      .hero-badge { margin-left: auto; margin-right: auto; }
+      .hero-actions { justify-content: center; }
+      .hero-stats { justify-content: center; }
+      .hero-sub { max-width: 100%; }
+    }
+    @media (max-width: 480px) {
+      .hero-stats { flex-wrap: wrap; gap: 16px; justify-content: center; }
+      .hero-title { font-size: clamp(1.6rem, 6vw, 2.2rem); }
+    }
+
+    /* ===================================================
+       ADVANTAGES STRIP
+    =================================================== */
+    #advantages-strip { background: var(--blue); padding: 0; overflow: hidden; }
+    .strip-inner { display: grid; grid-template-columns: repeat(4,1fr); }
+    .strip-item { display: flex; align-items: center; gap: 14px; padding: 28px 24px; border-right: 1px solid rgba(255,255,255,.12); transition: background .3s; }
+    .strip-item:last-child { border-right: none; }
+    .strip-item:hover { background: rgba(255,255,255,.06); }
+    .strip-icon { width: 40px; height: 40px; background: rgba(255,255,255,.12); border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .strip-icon svg { width: 20px; height: 20px; stroke: white; fill: none; stroke-width: 1.8; }
+    .strip-text strong { display: block; font-size: .88rem; font-weight: 700; color: white; margin-bottom: 2px; }
+    .strip-text span { font-size: .76rem; color: rgba(255,255,255,.65); font-weight: 500; }
+
+    /* ===================================================
+       HOW IT WORKS
+    =================================================== */
+    #how-it-works { background: var(--white); }
+    .how-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+    .how-steps { margin-top: 36px; display: flex; flex-direction: column; gap: 24px; }
+    .how-step { display: flex; gap: 20px; align-items: flex-start; }
+    .how-step-num { width: 44px; height: 44px; background: var(--blue-pale); border: 2px solid rgba(50,91,164,.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: .82rem; font-weight: 800; color: var(--blue); flex-shrink: 0; transition: var(--transition); }
+    .how-step:hover .how-step-num { background: var(--blue); color: white; border-color: var(--blue); }
+    .how-step-body h4 { font-size: .98rem; font-weight: 700; color: var(--text-dark); margin-bottom: 6px; }
+    .how-step-body p { font-size: .88rem; color: var(--text-light); line-height: 1.65; }
+    .how-img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .how-img { border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-md); }
+    .how-img img { width: 100%; height: 200px; object-fit: cover; transition: transform .5s; }
+    .how-img:hover img { transform: scale(1.05); }
+    .how-img.tall img { height: 412px; }
+
+    /* ===================================================
+       ABOUT / BIZ KIMIZ
+    =================================================== */
+    #about { background: var(--gray-50); }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+    .about-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 40px; }
+    .about-stat { background: white; border-radius: var(--radius-md); padding: 24px 20px; border: 1px solid var(--gray-200); text-align: center; transition: var(--transition); }
+    .about-stat:hover { border-color: rgba(50,91,164,.2); box-shadow: var(--shadow-sm); }
+    .about-stat-num { font-size: 2rem; font-weight: 800; color: var(--blue); letter-spacing: -.04em; line-height: 1; margin-bottom: 6px; }
+    .about-stat-label { font-size: .75rem; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .08em; }
+
+    .about-features { display: flex; flex-direction: column; gap: 20px; }
+    .about-feat { display: flex; gap: 16px; align-items: flex-start; }
+    .about-feat-icon { width: 44px; height: 44px; background: var(--blue-pale); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: var(--transition); }
+    .about-feat:hover .about-feat-icon { background: var(--blue); }
+    .about-feat-icon svg { width: 20px; height: 20px; stroke: var(--blue); fill: none; stroke-width: 1.8; transition: stroke .3s; }
+    .about-feat:hover .about-feat-icon svg { stroke: white; }
+    .about-feat h4 { font-size: .95rem; font-weight: 700; color: var(--text-dark); margin-bottom: 4px; }
+    .about-feat p { font-size: .86rem; color: var(--text-light); line-height: 1.65; }
+
+    /* ===================================================
+       PRODUCTS (Section on homepage - preview)
+    =================================================== */
+    #products-preview { background: var(--white); }
+    .products-grid-uniform { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+
+    /* ===================================================
+       PRODUCTS PAGE (ayrı sayfa)
+    =================================================== */
+    #page-products { background: var(--gray-50); }
+    .page-hero {
+      background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue) 100%);
+      padding: 120px 0 64px; position: relative; overflow: hidden;
+    }
+    .page-hero::after { content:''; position: absolute; inset: 0; background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
+    .page-hero-inner { position: relative; z-index: 2; }
+    .page-hero h1 { font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 800; color: white; letter-spacing: -.03em; margin-bottom: 16px; }
+    .page-hero p { font-size: 1.05rem; color: rgba(255,255,255,.75); max-width: 540px; line-height: 1.7; margin-bottom: 28px; }
+    .breadcrumb { display: flex; align-items: center; gap: 8px; font-size: .8rem; color: rgba(255,255,255,.5); margin-bottom: 20px; }
+    .breadcrumb span { color: rgba(255,255,255,.9); font-weight: 600; cursor: pointer; }
+    .breadcrumb span:hover { color: white; }
+    .breadcrumb-sep { opacity: .4; }
+
+    .products-page-section { padding: 64px 0; }
+    .products-full-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+
+    /* ===================================================
+       PRODUCT CARD (uniform)
+    =================================================== */
+    .product-card {
+      background: var(--white); border-radius: var(--radius-lg);
+      overflow: hidden; border: 1px solid var(--gray-200);
+      transition: var(--transition); display: flex; flex-direction: column;
+    }
+    .product-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: rgba(50,91,164,.2); }
+
+    .product-img-wrap { position: relative; background: var(--gray-100); overflow: hidden; flex-shrink: 0; }
+    .product-img-wrap img { width: 100%; height: 220px; object-fit: cover; display: block; transition: transform .5s; }
+    .product-card:hover .product-img-wrap img { transform: scale(1.06); }
+    .product-model-badge { position: absolute; top: 14px; left: 14px; background: var(--blue); color: white; font-size: .68rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; padding: 5px 12px; border-radius: 100px; }
+
+    .product-body { padding: 24px; flex: 1; display: flex; flex-direction: column; }
+    .product-name { font-size: 1.25rem; font-weight: 800; color: var(--text-dark); letter-spacing: -.02em; margin-bottom: 4px; }
+    .product-area { font-size: .82rem; color: var(--text-light); margin-bottom: 20px; display: flex; align-items: center; gap: 6px; }
+    .product-area svg { width: 13px; height: 13px; stroke: var(--blue-light); fill: none; stroke-width: 2; }
+    .product-specs { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
+    .spec-item { background: var(--gray-50); border-radius: var(--radius-sm); padding: 10px 12px; }
+    .spec-label { font-size: .65rem; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .1em; margin-bottom: 2px; }
+    .spec-value { font-size: .9rem; font-weight: 700; color: var(--text-dark); }
+    .product-cta { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--gray-100); padding-top: 18px; margin-top: auto; }
+    .product-cta-link { font-size: .82rem; font-weight: 700; color: var(--blue); display: flex; align-items: center; gap: 6px; }
+    .product-cta-link svg { width: 13px; height: 13px; stroke: currentColor; fill: none; stroke-width: 2.5; transition: transform .3s; }
+    .product-card:hover .product-cta-link svg { transform: translateX(4px); }
+
+    /* ===================================================
+       CALCULATOR
+    =================================================== */
+    #calculator {
+      background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue) 60%, var(--blue-mid) 100%);
+      position: relative; overflow: hidden;
+    }
+    #calculator::before { content:''; position:absolute; top:-100px; right:-100px; width:600px; height:600px; background:radial-gradient(circle, rgba(255,255,255,.06) 0%, transparent 70%); border-radius:50%; }
+    .calc-inner { position: relative; z-index: 2; }
+    .calc-header { text-align: center; margin-bottom: 48px; }
+    .calc-header .section-label { color: rgba(255,255,255,.7); }
+    .calc-header .section-label::before { background: rgba(255,255,255,.5); }
+    .calc-header .section-title { color: white; }
+    .calc-header .section-sub { color: rgba(255,255,255,.7); margin: 0 auto; }
+
+    .calc-card { background: white; border-radius: var(--radius-xl); padding: 48px; box-shadow: var(--shadow-xl); max-width: 980px; margin: 0 auto; }
+    .calc-form-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 18px; margin-bottom: 28px; }
+    .form-group { display: flex; flex-direction: column; gap: 8px; }
+    .form-label { font-size: .72rem; font-weight: 700; color: var(--text-mid); text-transform: uppercase; letter-spacing: .1em; }
+    .form-label span { font-size: .68rem; color: var(--text-light); text-transform: none; letter-spacing: 0; font-weight: 500; }
+    .form-control { width:100%; background: var(--gray-50); border: 1.5px solid var(--gray-200); border-radius: var(--radius-sm); padding: 13px 16px; font-size: .92rem; font-family: var(--font); color: var(--text-dark); outline: none; transition: var(--transition); appearance: none; }
+    .form-control:focus { border-color: var(--blue); background: white; box-shadow: 0 0 0 3px rgba(50,91,164,.12); }
+    select.form-control { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23325ba4' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:right 12px center; background-size:18px; padding-right:40px; cursor:pointer; }
+    .calc-unit-note { font-size: .8rem; color: var(--text-light); margin-bottom: 28px; display: flex; align-items: flex-start; gap: 8px; padding: 12px 16px; background: var(--blue-pale); border-radius: var(--radius-sm); border-left: 3px solid var(--blue); }
+    .calc-unit-note svg { width: 14px; height: 14px; stroke: var(--blue); fill: none; stroke-width: 2; flex-shrink: 0; margin-top: 2px; }
+    .calc-btn-wrap { text-align: center; margin-bottom: 36px; }
+    #calc-btn { display:inline-flex; align-items:center; gap:12px; background: var(--blue); color: white; font-size: .95rem; font-weight: 700; padding: 16px 40px; border-radius: var(--radius-sm); border: none; cursor: pointer; font-family: var(--font); transition: var(--transition); letter-spacing: .04em; }
+    #calc-btn:hover { background: var(--blue-dark); transform: translateY(-2px); box-shadow: 0 8px 28px rgba(50,91,164,.4); }
+    #calc-btn svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: 2; }
+    .calc-result { display: none; border-top: 1px solid var(--gray-200); padding-top: 36px; }
+    .calc-result.show { display: block; }
+    .result-intro { text-align: center; margin-bottom: 32px; }
+    .result-intro h3 { font-size: 1.3rem; font-weight: 800; color: var(--text-dark); margin-bottom: 6px; }
+    .result-intro p { font-size: .88rem; color: var(--text-light); }
+    .result-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 28px; }
+    .result-col { border-radius: var(--radius-md); padding: 28px; }
+    .result-col.traditional { background: #fff5f5; border: 1.5px solid #fecaca; }
+    .result-col.evaporative { background: #f0f7ff; border: 1.5px solid rgba(50,91,164,.2); }
+    .result-col-label { font-size: .68rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 14px; }
+    .result-col.traditional .result-col-label { color: #dc2626; }
+    .result-col.evaporative .result-col-label { color: var(--blue); }
+    .result-amount { font-size: 1.9rem; font-weight: 800; letter-spacing: -.03em; margin-bottom: 4px; }
+    .result-col.traditional .result-amount { color: #dc2626; }
+    .result-col.evaporative .result-amount { color: var(--blue); }
+    .result-period { font-size: .78rem; color: var(--text-light); margin-bottom: 18px; }
+    .result-bar-wrap { margin-bottom: 8px; }
+    .result-bar-label { display: flex; justify-content: space-between; font-size: .75rem; color: var(--text-light); margin-bottom: 6px; }
+    .result-bar-track { height: 8px; background: var(--gray-200); border-radius: 100px; overflow: hidden; }
+    .result-bar-fill { height: 100%; border-radius: 100px; transition: width 1.2s cubic-bezier(.4,0,.2,1); }
+    .result-col.traditional .result-bar-fill { background: linear-gradient(90deg, #f87171, #dc2626); }
+    .result-col.evaporative .result-bar-fill { background: linear-gradient(90deg, var(--blue-light), var(--blue-dark)); }
+    .savings-banner { background: linear-gradient(135deg, #325ba4, #1e3d72); border-radius: var(--radius-md); padding: 28px 32px; text-align: center; color: white; }
+    .savings-title { font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: rgba(255,255,255,.65); margin-bottom: 6px; }
+    .savings-amounts { display: flex; justify-content: center; gap: 40px; margin-top: 10px; flex-wrap: wrap; }
+    .savings-item { text-align: center; }
+    .savings-num { font-size: 2.2rem; font-weight: 800; letter-spacing: -.04em; color: white; line-height: 1; }
+    .savings-label { font-size: .72rem; color: rgba(255,255,255,.65); margin-top: 4px; font-weight: 600; }
+    .savings-divider { width: 1px; background: rgba(255,255,255,.2); align-self: stretch; }
+    .savings-pct { font-size: 3.2rem; font-weight: 800; letter-spacing: -.06em; color: white; line-height: 1; }
+    .savings-pct-label { font-size: .72rem; color: rgba(255,255,255,.65); margin-top: 4px; font-weight: 600; }
+
+    /* ===================================================
+       GALLERY
+    =================================================== */
+    #gallery { background: var(--white); }
+    .gallery-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; margin-top: 52px; }
+    .gallery-item { border-radius: var(--radius-md); overflow: hidden; position: relative; cursor: pointer; }
+    .gallery-item img { width: 100%; height: 200px; object-fit: cover; display: block; transition: transform .5s; }
+    .gallery-item:hover img { transform: scale(1.08); }
+    .gallery-item.large { grid-column: span 2; grid-row: span 2; }
+    .gallery-item.large img { height: 412px; }
+    .gallery-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(26,32,56,.6) 100%); opacity: 0; transition: opacity .3s; }
+    .gallery-item:hover .gallery-overlay { opacity: 1; }
+
+    /* ===================================================
+       WHY US
+    =================================================== */
+    #why-us { background: var(--gray-50); }
+    .why-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; margin-top: 52px; }
+    .why-card { background: white; border-radius: var(--radius-lg); padding: 32px 28px; border: 1px solid var(--gray-200); transition: var(--transition); position: relative; overflow: hidden; }
+    .why-card::before { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg, var(--blue-light), var(--blue)); opacity:0; transition:opacity .3s; }
+    .why-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: rgba(50,91,164,.15); }
+    .why-card:hover::before { opacity: 1; }
+    .why-icon { width: 50px; height: 50px; background: var(--blue-pale); border-radius: 13px; display: flex; align-items: center; justify-content: center; margin-bottom: 18px; transition: var(--transition); }
+    .why-card:hover .why-icon { background: var(--blue); }
+    .why-icon svg { width: 22px; height: 22px; stroke: var(--blue); fill: none; stroke-width: 1.7; transition: stroke .3s; }
+    .why-card:hover .why-icon svg { stroke: white; }
+    .why-card h3 { font-size: 1rem; font-weight: 700; color: var(--text-dark); margin-bottom: 10px; }
+    .why-card p { font-size: .86rem; color: var(--text-light); line-height: 1.7; }
+
+    /* ===================================================
+       REFERENCES (Referans Markaları)
+    =================================================== */
+    #references { background: var(--white); padding: 72px 0; }
+    .ref-header { text-align: center; margin-bottom: 48px; }
+    .ref-header p { font-size: .72rem; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .16em; margin-bottom: 8px; }
+    .ref-header h2 { font-size: clamp(1.4rem, 2.5vw, 1.9rem); font-weight: 800; color: var(--text-dark); letter-spacing: -.02em; }
+    .ref-logos-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 0;
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+    .ref-logo-cell {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 28px 20px;
+      border-right: 1px solid var(--gray-200);
+      border-bottom: 1px solid var(--gray-200);
+      transition: background .25s;
+      position: relative;
+    }
+    .ref-logo-cell:nth-child(6n) { border-right: none; }
+    .ref-logo-cell:nth-last-child(-n+6) { border-bottom: none; }
+    .ref-logo-cell:hover { background: var(--gray-50); }
+    .ref-logo-cell img {
+      width: 120px;
+      height: 44px;
+      object-fit: contain;
+      filter: grayscale(100%) opacity(0.55);
+      transition: filter .3s ease, transform .3s ease;
+      display: block;
+    }
+    .ref-logo-cell:hover img {
+      filter: grayscale(0%) opacity(1);
+      transform: scale(1.06);
+    }
+    @media (max-width: 900px) {
+      .ref-logos-grid { grid-template-columns: repeat(4, 1fr); }
+      .ref-logo-cell:nth-child(6n) { border-right: 1px solid var(--gray-200); }
+      .ref-logo-cell:nth-child(4n) { border-right: none; }
+      .ref-logo-cell:nth-last-child(-n+4) { border-bottom: none; }
+      .ref-logo-cell:nth-last-child(-n+6):not(:nth-last-child(-n+4)) { border-bottom: 1px solid var(--gray-200); }
+    }
+    @media (max-width: 600px) {
+      .ref-logos-grid { grid-template-columns: repeat(3, 1fr); }
+      .ref-logo-cell:nth-child(4n) { border-right: 1px solid var(--gray-200); }
+      .ref-logo-cell:nth-child(3n) { border-right: none; }
+    }
+
+    /* ===================================================
+       FAQ
+    =================================================== */
+    #faq { background: var(--gray-50); }
+    .faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+    .faq-list { display: flex; flex-direction: column; gap: 12px; }
+    .faq-item { background: white; border-radius: var(--radius-md); border: 1px solid var(--gray-200); overflow: hidden; transition: var(--transition); }
+    .faq-item:hover { border-color: rgba(50,91,164,.15); }
+    .faq-q {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 22px; cursor: pointer; font-size: .92rem; font-weight: 700;
+      color: var(--text-dark); gap: 16px;
+    }
+    .faq-q svg { width: 18px; height: 18px; stroke: var(--blue); fill: none; stroke-width: 2.2; flex-shrink: 0; transition: transform .3s; }
+    .faq-a { display: none; padding: 0 22px 18px; font-size: .87rem; color: var(--text-light); line-height: 1.7; }
+    .faq-item.open .faq-a { display: block; }
+    .faq-item.open .faq-q svg { transform: rotate(45deg); }
+    .faq-item.open { border-color: rgba(50,91,164,.2); box-shadow: var(--shadow-sm); }
+    .faq-item.open .faq-q { color: var(--blue); }
+
+    .faq-cta-box {
+      background: linear-gradient(135deg, var(--blue-dark), var(--blue));
+      border-radius: var(--radius-lg); padding: 40px 36px; color: white;
+      position: sticky; top: 90px;
+    }
+    .faq-cta-box h3 { font-size: 1.4rem; font-weight: 800; margin-bottom: 14px; letter-spacing: -.02em; }
+    .faq-cta-box p { font-size: .88rem; color: rgba(255,255,255,.75); margin-bottom: 28px; line-height: 1.7; }
+    .faq-cta-btn { display: flex; align-items: center; gap: 10px; background: white; color: var(--blue); font-size: .9rem; font-weight: 800; padding: 14px 24px; border-radius: var(--radius-sm); transition: var(--transition); cursor: pointer; letter-spacing: .03em; border: none; font-family: var(--font); width: 100%; justify-content: center; }
+    .faq-cta-btn:hover { background: var(--blue-pale); transform: translateY(-2px); }
+    .faq-cta-contacts { display: flex; flex-direction: column; gap: 12px; margin-top: 20px; }
+    .faq-contact-line { display: flex; align-items: center; gap: 10px; font-size: .84rem; color: rgba(255,255,255,.7); }
+    .faq-contact-line svg { width: 16px; height: 16px; stroke: rgba(255,255,255,.8); fill: none; stroke-width: 2; flex-shrink: 0; }
+    .faq-contact-line a { color: white; font-weight: 600; }
+
+    /* ===================================================
+       CONTACT
+    =================================================== */
+    #contact { background: var(--white); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+    .contact-items { display: flex; flex-direction: column; gap: 20px; margin-top: 36px; }
+    .contact-item { display: flex; align-items: center; gap: 16px; padding: 18px 22px; background: var(--gray-50); border-radius: var(--radius-md); border: 1px solid var(--gray-200); transition: var(--transition); text-decoration: none; }
+    .contact-item:hover { background: var(--blue-pale); border-color: rgba(50,91,164,.2); transform: translateX(4px); }
+    .contact-item-icon { width: 42px; height: 42px; background: var(--blue); border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .contact-item-icon svg { width: 18px; height: 18px; stroke: white; fill: none; stroke-width: 1.8; }
+    .contact-item-label { font-size: .68rem; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .1em; margin-bottom: 2px; }
+    .contact-item-val { font-size: 1rem; font-weight: 700; color: var(--text-dark); }
+    .contact-form-wrap { background: var(--gray-50); border-radius: var(--radius-lg); padding: 38px; border: 1px solid var(--gray-200); }
+    .contact-form-wrap h3 { font-size: 1.2rem; font-weight: 800; color: var(--text-dark); margin-bottom: 22px; }
+    .contact-form { display: flex; flex-direction: column; gap: 14px; }
+    .contact-form input, .contact-form textarea { width: 100%; background: white; border: 1.5px solid var(--gray-200); border-radius: var(--radius-sm); padding: 12px 16px; font-size: .92rem; font-family: var(--font); color: var(--text-dark); outline: none; transition: var(--transition); resize: none; }
+    .contact-form input:focus, .contact-form textarea:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(50,91,164,.12); }
+    .contact-form textarea { min-height: 110px; }
+
+    /* ===================================================
+       FOOTER
+    =================================================== */
+    footer { background: var(--text-dark); color: rgba(255,255,255,.6); padding: 48px 0 32px; }
+    .footer-inner { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 56px; padding-bottom: 36px; border-bottom: 1px solid rgba(255,255,255,.08); }
+    .footer-logo img { height: 38px; margin-bottom: 14px; filter: brightness(0) invert(1); opacity: .85; }
+    .footer-desc { font-size: .85rem; line-height: 1.7; margin-bottom: 18px; }
+    .footer-social { display: flex; gap: 10px; }
+    .footer-social-link { width: 34px; height: 34px; background: rgba(255,255,255,.08); border-radius: 8px; display: flex; align-items: center; justify-content: center; transition: var(--transition); }
+    .footer-social-link:hover { background: var(--blue); }
+    .footer-social-link svg { width: 15px; height: 15px; stroke: rgba(255,255,255,.7); fill: none; stroke-width: 2; }
+    .footer-col h4 { font-size: .75rem; font-weight: 700; color: white; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 18px; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-links a, .footer-links span { font-size: .84rem; color: rgba(255,255,255,.55); transition: color .3s; cursor: pointer; }
+    .footer-links a:hover, .footer-links span:hover { color: white; }
+    .footer-bottom { padding-top: 26px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+    .footer-bottom p { font-size: .78rem; }
+
+    /* ===================================================
+       WHATSAPP STICKY
+    =================================================== */
+    #whatsapp-btn { position: fixed; bottom: 28px; right: 28px; z-index: 999; width: 58px; height: 58px; background: #25d366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 20px rgba(37,211,102,.45); transition: var(--transition); cursor: pointer; }
+    #whatsapp-btn:hover { transform: scale(1.1) translateY(-2px); box-shadow: 0 8px 30px rgba(37,211,102,.55); }
+    #whatsapp-btn svg { width: 30px; height: 30px; }
+    .whatsapp-ring { position: absolute; inset: 0; border-radius: 50%; border: 2px solid #25d366; animation: ring-pulse 2.5s infinite; }
+    @keyframes ring-pulse { 0%{transform:scale(1);opacity:.8} 100%{transform:scale(1.7);opacity:0} }
+
+    /* ===================================================
+       RESPONSIVE
+    =================================================== */
+    @media (max-width: 1100px) {
+      .products-grid-uniform { grid-template-columns: repeat(2, 1fr); }
+      .products-full-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 1024px) {
+      .how-grid { grid-template-columns: 1fr; gap: 48px; }
+      .about-grid { grid-template-columns: 1fr; gap: 48px; }
+      .contact-grid { grid-template-columns: 1fr; gap: 48px; }
+      .faq-grid { grid-template-columns: 1fr; }
+      .faq-cta-box { position: static; }
+      .footer-inner { grid-template-columns: 1fr 1fr; }
+      .strip-inner { grid-template-columns: repeat(2, 1fr); }
+      .strip-item { border-bottom: 1px solid rgba(255,255,255,.12); }
+      .strip-item:nth-child(2) { border-right: none; }
+      .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+      .gallery-item.large img { height: 300px; }
+      .why-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .hero-inner { grid-template-columns: 1fr; text-align: center; padding: 60px 0 40px; gap: 48px; }
+      .hero-actions { justify-content: center; }
+      .hero-stats { justify-content: center; }
+      .hero-float-card { top: 12px; right: 12px; }
+      .products-grid-uniform { grid-template-columns: 1fr 1fr; }
+      .products-full-grid { grid-template-columns: 1fr; }
+      .calc-form-grid { grid-template-columns: repeat(2, 1fr); }
+      .calc-card { padding: 28px 20px; }
+      .result-grid { grid-template-columns: 1fr; }
+      .strip-inner { grid-template-columns: 1fr; }
+      .strip-item { border-right: none; }
+      .footer-inner { grid-template-columns: 1fr; gap: 32px; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+      .gallery-grid { grid-template-columns: 1fr 1fr; }
+      .gallery-item.large { grid-column: span 2; }
+      .gallery-item.large img { height: 240px; }
+      .why-grid { grid-template-columns: 1fr; }
+      .section-pad { padding: 64px 0; }
+      .about-stats { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 540px) {
+      .calc-form-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 480px) {
+      .hero-stats { flex-direction: column; gap: 16px; }
+      .gallery-grid { grid-template-columns: 1fr; }
+      .gallery-item.large { grid-column: span 1; }
+      .products-grid-uniform { grid-template-columns: 1fr; }
+      .about-stats { grid-template-columns: 1fr; }
+    }
+
+    .count-up { font-variant-numeric: tabular-nums; }
+    @keyframes shake { 0%,100%{transform:translateX(0)} 20%{transform:translateX(-6px)} 40%{transform:translateX(6px)} 60%{transform:translateX(-4px)} 80%{transform:translateX(4px)} }
+  </style>
+</head>
+<body>
+
+<!-- ========= NAVBAR ========= -->
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" id="nav-home-logo" aria-label="Evaporatif Ana Sayfa">
+        <img src="logo.png" alt="Evaporatif Logo" />
+      </a>
+      <ul class="nav-links">
+        <li><a onclick="goHome()" id="nav-link-home" class="active-nav">Ana Sayfa</a></li>
+        <li><a onclick="goHome('how-it-works')" id="nav-link-how-it-works">Teknoloji</a></li>
+        <li><a onclick="goHome('calculator')" id="nav-link-calculator">Tasarruf Hesapla</a></li>
+        <li><a onclick="goHome('gallery')" id="nav-link-gallery">Referanslar</a></li>
+        <li class="nav-item-dropdown">
+          <a onclick="showProducts()" id="nav-link-products" class="nav-dropdown-trigger">
+            Ürünler
+            <svg class="nav-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav-dropdown-menu">
+            <div class="nav-dropdown-img">
+              <img src="20.jpg" alt="Evaporatif EVA Serisi" />
+              <span class="nav-dropdown-badge">EVA SERİSİ</span>
+            </div>
+            <ul class="nav-dropdown-list">
+              <li class="nav-dropdown-item"><a onclick="showProducts('product-eva20')"><span class="play-icon"></span>Evaporatif EVA 20</a></li>
+              <li class="nav-dropdown-item"><a onclick="showProducts('product-eva30')"><span class="play-icon"></span>Evaporatif EVA 30</a></li>
+              <li class="nav-dropdown-item"><a onclick="showProducts('product-eva40')"><span class="play-icon"></span>Evaporatif EVA 40</a></li>
+              <li class="nav-dropdown-item"><a onclick="showProducts('product-eva60')"><span class="play-icon"></span>Evaporatif EVA 60</a></li>
+              <li class="nav-dropdown-item"><a onclick="showProducts('product-eva80')"><span class="play-icon"></span>Evaporatif EVA 80</a></li>
+              <li class="nav-dropdown-footer">
+                <a onclick="showProducts()">Tüm Modelleri Gör <svg viewBox="0 0 24 24" width="12" height="12" stroke="currentColor" stroke-width="2.5" fill="none"><polyline points="9 18 15 12 9 6"/></svg></a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li><a onclick="showContact()" id="nav-link-contact">İletişim</a></li>
+        <li>
+          <a href="catalog.pdf" target="_blank" class="nav-katalog">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            E-Katalog
+          </a>
+        </li>
+        <li>
+          <a href="https://wa.me/905324931506" target="_blank" class="nav-cta">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>Teklif Al</span>
+          </a>
+        </li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menü"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <ul>
+    <li><span class="mobile-link active-nav" onclick="goHome()" id="mob-link-home">Ana Sayfa</span></li>
+    <li><span class="mobile-link" onclick="goHome('how-it-works')" id="mob-link-how-it-works">Teknoloji</span></li>
+    <li><span class="mobile-link" onclick="goHome('calculator')" id="mob-link-calculator">Tasarruf Hesapla</span></li>
+    <li><span class="mobile-link" onclick="goHome('gallery')" id="mob-link-gallery">Referanslar</span></li>
+    <li class="mobile-dropdown-wrap" id="mob-dropdown-wrap">
+      <div class="mobile-link-row" onclick="toggleMobileSubmenu()">
+        <span class="mobile-link" id="mob-link-products">Ürünler</span>
+        <svg class="mobile-arrow-icon" id="mob-submenu-arrow" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+      <ul class="mobile-submenu" id="mobile-submenu">
+        <li><span class="mobile-sublink" onclick="showProducts('product-eva20')">▶ Evaporatif EVA 20</span></li>
+        <li><span class="mobile-sublink" onclick="showProducts('product-eva30')">▶ Evaporatif EVA 30</span></li>
+        <li><span class="mobile-sublink" onclick="showProducts('product-eva40')">▶ Evaporatif EVA 40</span></li>
+        <li><span class="mobile-sublink" onclick="showProducts('product-eva60')">▶ Evaporatif EVA 60</span></li>
+        <li><span class="mobile-sublink" onclick="showProducts('product-eva80')">▶ Evaporatif EVA 80</span></li>
+        <li><span class="mobile-sublink-all" onclick="showProducts()">Tüm Modelleri Gör →</span></li>
+      </ul>
+    </li>
+    <li><span class="mobile-link" onclick="showContact()" id="mob-link-contact">İletişim</span></li>
+    <li><a href="catalog.pdf" target="_blank" class="mobile-link">E-Katalog</a></li>
+  </ul>
+  <a href="https://wa.me/905324931506" target="_blank" class="mobile-cta">WhatsApp ile Teklif Al</a>
+</div>
+
+<!-- ========= ANA SAYFA ========= -->
+<div id="page-home">
+
+<!-- HERO — 3-SLIDE FULL-SCREEN BANNER -->
+<section id="hero" role="region" aria-roledescription="carousel" aria-label="Evaporatif Soğutma Sistemleri">
+  <!-- Slider track -->
+  <div class="banner-track" id="bannerTrack" tabindex="0" aria-live="polite">
+
+    <!-- SLIDE 1 -->
+    <div class="banner-slide active" id="slide-1" role="group" aria-roledescription="slide" aria-label="Slayt 1 / 3 - Enerji Tasarrufu">
+      <div class="banner-slide-bg" style="background-image:url('banner-1.png');"></div>
+      <div class="banner-cards">
+        <!-- Main content -->
+        <div class="banner-main-card">
+          <div class="hero-badge"><span class="hero-badge-dot"></span>Endüstriyel Soğutma Teknolojisi</div>
+          <h1 class="hero-title">Fabrikanızı Soğutun,<br />Faturanızı <span>%80 Azaltın</span></h1>
+          <p class="hero-sub">Kompresörsüz evaporatif soğutma; geleneksel klimaların elektrik tüketiminin beşte biriyle aynı konforu sağlar. %100 taze hava, açık kapı/pencere uyumluluğu ve sıfır freon ile sektörün standartını belirliyoruz.</p>
+          <div class="hero-actions">
+            <a href="#" onclick="showProducts()" class="btn-primary">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              Ürün Modellerini İncele
+            </a>
+            <a onclick="goHome('calculator')" class="btn-secondary" style="cursor:pointer;color:#fff;border-color:rgba(255,255,255,.5);">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="8" x2="16" y2="8"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="8" y1="16" x2="12" y2="16"/></svg>
+              Tasarruf Hesapla
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div><div class="hero-stat-num count-up" data-target="80">0</div><div class="hero-stat-label">% Enerji Tasarrufu</div></div>
+            <div><div class="hero-stat-num count-up" data-target="100">0</div><div class="hero-stat-label">% Taze Hava</div></div>
+            <div><div class="hero-stat-num count-up" data-target="15">0</div><div class="hero-stat-label">°C Soğutma</div></div>
+          </div>
+        </div>
+        <!-- Info card -->
+        <div class="banner-info-card">
+          <div class="banner-info-item">
+            <div class="banner-info-icon"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+            <div><div class="banner-info-label">Enerji Tasarrufu</div><div class="banner-info-val">%75 – %80</div></div>
+          </div>
+          <div class="banner-info-item">
+            <div class="banner-info-icon"><svg viewBox="0 0 24 24"><path d="M12 22a10 10 0 100-20 10 10 0 000 20z"/><path d="M8 12h8M12 8v8"/></svg></div>
+            <div><div class="banner-info-label">Hava Kalitesi</div><div class="banner-info-val">%100 Taze Hava</div></div>
+          </div>
+          <div class="banner-info-item">
+            <div class="banner-info-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <div><div class="banner-info-label">Sertifika</div><div class="banner-info-val">CE Belgeli</div></div>
+          </div>
+          <div class="banner-info-item">
+            <div class="banner-info-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg></div>
+            <div><div class="banner-info-label">Proje Deneyimi</div><div class="banner-info-val">12+ Ülke</div></div>
+          </div>
+        </div>
+        <!-- CTA card -->
+        <div class="banner-cta-card">
+          <div class="banner-cta-badge">Türkiye Üretimi</div>
+          <div class="banner-cta-title">EVA Serisi ile Maksimum Verimlilik</div>
+          <div class="banner-cta-desc">EVA 20'den EVA 80'e her tesis büyüklüğüne özel çözüm. Ücretsiz keşif randevusu alın.</div>
+          <div class="banner-cta-energy">
+            <div class="banner-cta-energy-num">A+</div>
+            <div class="banner-cta-energy-label">Enerji Verimliliği<br />Sınıfı</div>
+          </div>
+          <a href="https://wa.me/905324931506?text=Evaporatif%20sistemi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" class="btn-primary" style="width:100%;justify-content:center;">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+            Teklif Al
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 2 -->
+    <div class="banner-slide" id="slide-2" role="group" aria-roledescription="slide" aria-label="Slayt 2 / 3 - Endüstriyel Tesisler">
+      <div class="banner-slide-bg" style="background-image:url('banner-2.png');"></div>
+      <div class="banner-cards">
+        <div class="banner-main-card">
+          <div class="hero-badge"><span class="hero-badge-dot"></span>Endüstriyel Tesisler İçin</div>
+          <h1 class="hero-title">Fabrika, Atölye,<br /><span>Depo ve Hangar</span> Soğutma</h1>
+          <p class="hero-sub">Açık kapı ve pencerelerde bile etkin soğutma. Yükleme rampalarından üretim hatlarına her noktada %100 taze hava akışı ile çalışan konforunu artırın.</p>
+          <div class="hero-actions">
+            <a href="#" onclick="showProducts()" class="btn-primary">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              Ürünleri İncele
+            </a>
+            <a href="catalog.pdf" target="_blank" class="btn-secondary" style="cursor:pointer;color:#fff;border-color:rgba(255,255,255,.5);">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              E-Katalog
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div><div class="hero-stat-num">500+</div><div class="hero-stat-label">Başarılı Kurulum</div></div>
+            <div><div class="hero-stat-num">12+</div><div class="hero-stat-label">Ülkede Proje</div></div>
+            <div><div class="hero-stat-num">20+</div><div class="hero-stat-label">Yıllık Deneyim</div></div>
+          </div>
+        </div>
+        <div class="banner-info-card">
+          <div class="banner-info-item">
+            <div class="banner-info-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+            <div><div class="banner-info-label">Kullanım Alanı</div><div class="banner-info-val">Fabrika & Depo</div></div>
+          </div>
+          <div class="banner-info-item">
+            <div class="banner-info-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg></div>
+            <div><div class="banner-info-label">Kurulum</div><div class="banner-info-val">Tek Günde</div></div>
+          </div>
+          <div class="banner-info-item">
+            <div class="banner-info-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+            <div><div class="banner-info-label">Malzeme</div><div class="banner-info-val">Geri Dönüşümlü</div></div>
+          </div>
+          <div class="banner-info-item">
+            <div class="banner-info-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
+            <div><div class="banner-info-label">Teknik Destek</div><div class="banner-info-val">24 Saat İçinde</div></div>
+          </div>
+        </div>
+        <div class="banner-cta-card">
+          <div class="banner-cta-badge">Referans Markalar</div>
+          <div class="banner-cta-title">Sektör Liderlerinin Tercih Ettiği Sistem</div>
+          <div class="banner-cta-desc">Arçelik, Bosch, BSH, Vestel, Sütaş, Pınar, Temsa ve daha fazlası.</div>
+          <div class="banner-cta-energy">
+            <div class="banner-cta-energy-num">12+</div>
+            <div class="banner-cta-energy-label">Sektör Lideri<br />Referans</div>
+          </div>
+          <a href="https://wa.me/905324931506?text=Evaporatif%20sistemi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" class="btn-primary" style="width:100%;justify-content:center;">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+            WhatsApp ile Ulaşın
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 3 -->
+    <div class="banner-slide" id="slide-3" role="group" aria-roledescription="slide" aria-label="Slayt 3 / 3 - Sürdürülebilirlik">
+      <div class="banner-slide-bg" style="background-image:url('banner-3.png');"></div>
+      <div class="banner-cards">
+        <div class="banner-main-card">
+          <div class="hero-badge"><span class="hero-badge-dot"></span>Sürdürülebilir Teknoloji</div>
+          <h1 class="hero-title">Sıfır Freon,<br /><span>Sıfır Karbon</span> Ayak İzi</h1>
+          <p class="hero-sub">Doğal buharlaşma prensibiyle çalışan sistemimiz hiçbir kimyasal soğutucu kullanmaz. Geleceğe yatırım yapın, enerji maliyetlerinizi bugünden düşürün.</p>
+          <div class="hero-actions">
+            <a href="#" onclick="goHome('about')" class="btn-primary">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+              Hakkımızda
+            </a>
+            <a onclick="showContact()" class="btn-secondary" style="cursor:pointer;color:#fff;border-color:rgba(255,255,255,.5);">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              İletişim
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div><div class="hero-stat-num">0</div><div class="hero-stat-label">Freon / Kimyasal</div></div>
+            <div><div class="hero-stat-num">~0</div><div class="hero-stat-label">CO₂ Salınımı</div></div>
+            <div><div class="hero-stat-num">∞</div><div class="hero-stat-label">Yenilenebilir</div></div>
+          </div>
+        </div>
+        <div class="banner-info-card">
+          <div class="banner-info-item">
+            <div class="banner-info-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+            <div><div class="banner-info-label">Çevre Etkisi</div><div class="banner-info-val">Sıfıra Yakın</div></div>
+          </div>
+          <div class="banner-info-item">
+            <div class="banner-info-icon"><svg viewBox="0 0 24 24"><path d="M12 22a10 10 0 100-20 10 10 0 000 20z"/><path d="M8 12h8M12 8v8"/></svg></div>
+            <div><div class="banner-info-label">Soğutucu</div><div class="banner-info-val">Sadece Su</div></div>
+          </div>
+          <div class="banner-info-item">
+            <div class="banner-info-icon"><svg viewBox="0 0 24 24"><path d="M18 20V10M12 20V4M6 20v-6"/></svg></div>
+            <div><div class="banner-info-label">Verim Oranı</div><div class="banner-info-val">%75 – %80</div></div>
+          </div>
+          <div class="banner-info-item">
+            <div class="banner-info-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <div><div class="banner-info-label">Standart</div><div class="banner-info-val">CE Belgeli</div></div>
+          </div>
+        </div>
+        <div class="banner-cta-card">
+          <div class="banner-cta-badge">Ücretsiz Keşif</div>
+          <div class="banner-cta-title">Tesisinize Özel Analiz Yaptırın</div>
+          <div class="banner-cta-desc">Teknik ekibimiz tesisinizin m², tavan yüksekliği ve ısı yüküne göre ücretsiz proje tasarımı yapar.</div>
+          <div class="banner-cta-energy">
+            <div class="banner-cta-energy-num">24h</div>
+            <div class="banner-cta-energy-label">İçinde Teknik<br />Dönüş Garantisi</div>
+          </div>
+          <a onclick="showContact()" class="btn-primary" style="width:100%;justify-content:center;cursor:pointer;">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Keşif Randevusu
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end banner-track -->
+
+  <!-- Dots — bottom center -->
+  <div class="banner-dots" id="bannerDots" role="tablist" aria-label="Banner slayt navigasyonu">
+    <button class="banner-dot active" role="tab" aria-selected="true" aria-controls="slide-1" aria-label="Slayt 1: Enerji Tasarrufu" data-slide="0"></button>
+    <button class="banner-dot" role="tab" aria-selected="false" aria-controls="slide-2" aria-label="Slayt 2: Endüstriyel Tesisler" data-slide="1"></button>
+    <button class="banner-dot" role="tab" aria-selected="false" aria-controls="slide-3" aria-label="Slayt 3: Sürdürülebilirlik" data-slide="2"></button>
+  </div>
+  <!-- Navigation Arrows -->
+  <button class="banner-arrow banner-arrow-prev" id="bannerPrevBtn" aria-label="Önceki Slayt">
+    <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+  </button>
+  <button class="banner-arrow banner-arrow-next" id="bannerNextBtn" aria-label="Sonraki Slayt">
+    <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+  </button>
+  <div class="banner-progress" id="bannerProgress"></div>
+</section>
+
+<!-- ADVANTAGES STRIP -->
+<section id="advantages-strip">
+  <div class="container" style="max-width:100%;padding:0;">
+    <div class="strip-inner">
+      <div class="strip-item reveal delay-1">
+        <div class="strip-icon"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+        <div class="strip-text"><strong>%80'e Varan Tasarruf</strong><span>Geleneksel klimaya kıyasla</span></div>
+      </div>
+      <div class="strip-item reveal delay-2">
+        <div class="strip-icon"><svg viewBox="0 0 24 24"><path d="M12 22a10 10 0 100-20 10 10 0 000 20z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></div>
+        <div class="strip-text"><strong>%100 Taze Hava</strong><span>Sürekli dış hava sirkülasyonu</span></div>
+      </div>
+      <div class="strip-item reveal delay-3">
+        <div class="strip-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 12h6M12 9v6"/></svg></div>
+        <div class="strip-text"><strong>Açık Pencere Uyumlu</strong><span>Kapalı mekan gerektirmez</span></div>
+      </div>
+      <div class="strip-item reveal delay-4">
+        <div class="strip-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <div class="strip-text"><strong>CE Sertifikalı</strong><span>Türkiye üretimi, Avrupa standardı</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how-it-works" class="section-pad">
+  <div class="container">
+    <div class="how-grid">
+      <div class="how-text reveal-left">
+        <div class="section-label">Teknoloji</div>
+        <h2 class="section-title">Evaporatif Soğutma Nasıl Çalışır?</h2>
+        <p class="section-sub">Su buharlaşmasının doğal soğutma etkisini endüstriyel ölçeğe taşıyan bu teknoloji; kompresör, freon veya kapalı devre gerektirmeden fabrikanızı etkin biçimde soğutur.</p>
+        <div class="how-steps">
+          <div class="how-step">
+            <div class="how-step-num">01</div>
+            <div class="how-step-body"><h4>Dış Hava Alımı</h4><p>Cihaz dışarıdan sürekli taze hava çeker. Geri dönüştürülmüş (iç) hava kullanılmaz, dolayısıyla tesis içi hava kalitesi daima yüksek kalır. CO₂ birikimi oluşmaz.</p></div>
+          </div>
+          <div class="how-step">
+            <div class="how-step-num">02</div>
+            <div class="how-step-body"><h4>Selüloz Pad ile Soğutma</h4><p>Hava, suyla nemlendirilen yüksek yoğunluklu selüloz pedlerinden geçer. Buharlaşma sırasında havadan ısı çekilir; sıcaklık 12–15 °C azalır. Freon veya kimyasal soğutucu kullanılmaz.</p></div>
+          </div>
+          <div class="how-step">
+            <div class="how-step-num">03</div>
+            <div class="how-step-body"><h4>Homojen Hava Dağıtımı</h4><p>Güçlü aksiyel fanlar soğuyan havayı geniş alanlara homojen biçimde dağıtır. Açık kapı ve pencerelerde bile etkin soğutma sağlanır; çalışanlar anında fark eder.</p></div>
+          </div>
+          <div class="how-step">
+            <div class="how-step-num">04</div>
+            <div class="how-step-body"><h4>Otomatik Su Yönetimi</h4><p>Entegre pompa ve şamandıra sistemi su seviyesini otomatik dengeler. Bakım gereksinimleri minimumdur; yıllık bakım yalnızca pad kontrolü ve temizliğinden oluşur.</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="how-visual reveal-right">
+        <div class="how-img-grid">
+          <div class="how-img tall" style="grid-row:span 2;">
+            <img src="gorsel-cihaz-on.jpeg" alt="Evaporatif Cihaz Ön Görünüm" loading="lazy" />
+          </div>
+          <div class="how-img">
+            <img src="gorsel-cihaz-detay.jpeg" alt="Evaporatif Cihaz Detay" loading="lazy" />
+          </div>
+          <div class="how-img">
+            <img src="gorsel-cihaz-yan.jpeg" alt="Evaporatif Cihaz Yandan" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT / BIZ KIMIZ -->
+<section id="about" class="section-pad">
+  <div class="container">
+    <div class="about-grid">
+      <div class="reveal-left">
+        <div class="section-label">Biz Kimiz</div>
+        <h2 class="section-title">Dünyamıza Zarar Vermeyen İklimlendirme Teknolojisinde Lideriz</h2>
+        <p class="section-sub">Evaporatif Soğutma Ve Isıtma Sistemleri A.Ş., ısıtma, havalandırma ve iklimlendirme teknolojisinde yenilikçi tasarım mühendisliği anlayışıyla alanının en zor sorunlarını çözmektedir.</p>
+        <p style="font-size:.9rem;color:var(--text-light);line-height:1.75;margin-top:16px;">Günümüzde ihtiyaç duyulan tasarruflu, sürdürülebilir, çevreye duyarlı, sağlıklı ve temiz iklimlendirme sistemleri alanında Türkiye ve dünyaya yeni çözümler sunmaktayız. Müşterilerimizin ihtiyaçları doğrultusunda inovatif çözümler geliştirerek sabit ve taşınabilir evaporatif soğutucular üretiyor, beklentileri karşılıyoruz.</p>
+        <div class="about-stats">
+          <div class="about-stat"><div class="about-stat-num count-up" data-target="20">0</div><div class="about-stat-label">Yıllık Deneyim</div></div>
+          <div class="about-stat"><div class="about-stat-num count-up" data-target="12">0</div><div class="about-stat-label">Ülkede Proje</div></div>
+          <div class="about-stat"><div class="about-stat-num count-up" data-target="500">0</div><div class="about-stat-label">Başarılı Kurulum</div></div>
+          <div class="about-stat"><div class="about-stat-num count-up" data-target="80">0</div><div class="about-stat-label">% Maks. Tasarruf</div></div>
+        </div>
+      </div>
+      <div class="about-features reveal-right">
+        <div class="about-feat">
+          <div class="about-feat-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div><h4>CE Belgeli Üretim</h4><p>Tüm ürünlerimiz Avrupa Birliği standartlarını karşılayan CE belgesiyle üretilmekte; kalite ve güvenlik taahhüdümüzü somutlaştırmaktadır.</p></div>
+        </div>
+        <div class="about-feat">
+          <div class="about-feat-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg></div>
+          <div><h4>Uluslararası Proje Deneyimi</h4><p>Almanya, Sırbistan, İspanya başta olmak üzere birçok ülkede kurulum ve proje deneyimiyle küresel bir çözüm ortağıyız.</p></div>
+        </div>
+        <div class="about-feat">
+          <div class="about-feat-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
+          <div><h4>Mühendis Ekibi ile Destek</h4><p>Teknik ekibimiz proje tasarımından kurulum sonrası bakıma kadar tüm süreçte yanınızdadır. 24 saat içinde geri dönüş garantisi veriyoruz.</p></div>
+        </div>
+        <div class="about-feat">
+          <div class="about-feat-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+          <div><h4>Sürdürülebilir Malzeme</h4><p>Geri dönüştürülebilir malzemeler kullanarak gelecek nesillere yaşanabilir ve temiz bir çevre bırakma hedefindeyiz. Çevre etkisi sıfıra yakın üretim.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CALCULATOR -->
+<section id="calculator" class="section-pad">
+  <div class="container calc-inner">
+    <div class="calc-header reveal">
+      <div class="section-label">ROI Hesaplayıcı</div>
+      <h2 class="section-title">Fabrikanız için Tasarrufu Hesaplayın</h2>
+      <p class="section-sub">Cihaz modelini, alanı ve çalışma saatini girin; aylık ve yıllık ne kadar tasarruf edeceğinizi anında görün.</p>
+    </div>
+    <div class="calc-card reveal">
+      <div class="calc-form-grid">
+        <div class="form-group">
+          <label class="form-label" for="model-select">Ürün Modeli</label>
+          <select class="form-control" id="model-select">
+            <option value="" disabled selected>Model seçin...</option>
+            <option value="EVA 20">EVA 20 — 1,1 kW (20.000 m³/h)</option>
+            <option value="EVA 30">EVA 30 — 2,2 kW (30.000 m³/h)</option>
+            <option value="EVA 40">EVA 40 — 3,0 kW (40.000 m³/h)</option>
+            <option value="EVA 60">EVA 60 — 4,0 kW (60.000 m³/h)</option>
+            <option value="EVA 80">EVA 80 — 7,5 kW (80.000 m³/h)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="area-input">Fabrika Alanı <span>(m²)</span></label>
+          <input class="form-control" type="number" id="area-input" placeholder="Örn: 1000" min="50" max="50000" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="hours-input">Günlük Çalışma <span>(saat/gün)</span></label>
+          <input class="form-control" type="number" id="hours-input" placeholder="Örn: 8" min="1" max="24" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="days-input">Aylık Çalışma <span>(gün/ay)</span></label>
+          <input class="form-control" type="number" id="days-input" placeholder="Örn: 26" value="26" min="1" max="31" />
+        </div>
+      </div>
+      <div class="calc-unit-note">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        Hesaplama varsayımları: Elektrik birim fiyatı: <strong style="color:var(--text-dark);">5,20 TL/kWh</strong> · Geleneksel klima tüketimi: <strong style="color:var(--text-dark);">m² başına 0,15 kW</strong>
+      </div>
+      <div class="calc-btn-wrap">
+        <button id="calc-btn" type="button">
+          <svg viewBox="0 0 24 24"><path d="M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 2.5 2 2.5-2 3.5 2z"/></svg>
+          Tasarrufu Hesapla
+        </button>
+      </div>
+      <div class="calc-result" id="calc-result">
+        <div class="result-intro">
+          <h3 id="result-title">Hesaplama Sonuçları</h3>
+          <p id="result-desc"></p>
+          <div style="margin-top:12px;display:inline-flex;align-items:center;gap:8px;background:var(--blue-pale);border:1.5px solid rgba(50,91,164,.25);color:var(--blue-dark);font-size:.9rem;font-weight:800;padding:8px 20px;border-radius:100px;" id="result-device-badge">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+            İhtiyaç Duyulan Cihaz: <span id="needed-device-text" style="color:var(--blue);">—</span>
+          </div>
+        </div>
+        <div class="result-grid" style="margin-top:24px;">
+          <div class="result-col traditional">
+            <div class="result-col-label">Geleneksel Kompresörlü Klima</div>
+            <div class="result-amount" id="trad-monthly">—</div>
+            <div class="result-period">Aylık Elektrik Faturası (TL)</div>
+            <div class="result-bar-wrap">
+              <div class="result-bar-label"><span>Tüketim</span><span id="trad-pct-label">100%</span></div>
+              <div class="result-bar-track"><div class="result-bar-fill" id="trad-bar" style="width:0%"></div></div>
+            </div>
+            <div style="margin-top:16px;font-size:.82rem;color:#dc2626;font-weight:700;" id="trad-yearly">Yıllık: —</div>
+          </div>
+          <div class="result-col evaporative">
+            <div class="result-col-label">Evaporatif Sistem</div>
+            <div class="result-amount" id="eva-monthly">—</div>
+            <div class="result-period">Aylık Elektrik Faturası (TL)</div>
+            <div class="result-bar-wrap">
+              <div class="result-bar-label"><span>Tüketim</span><span id="eva-pct-label">—%</span></div>
+              <div class="result-bar-track"><div class="result-bar-fill" id="eva-bar" style="width:0%"></div></div>
+            </div>
+            <div style="margin-top:16px;font-size:.82rem;color:var(--blue);font-weight:700;" id="eva-yearly">Yıllık: —</div>
+            <div style="margin-top:6px;font-size:.82rem;color:var(--blue-dark);font-weight:700;" id="eva-device-count">Önerilen Cihaz Adedi: — Adet</div>
+          </div>
+        </div>
+        <div class="savings-banner">
+          <div class="savings-title">Toplam Tasarrufunuz</div>
+          <div class="savings-amounts">
+            <div class="savings-item"><div class="savings-num" id="save-monthly">—</div><div class="savings-label">TL / Ay</div></div>
+            <div class="savings-divider"></div>
+            <div class="savings-item"><div class="savings-num" id="save-yearly">—</div><div class="savings-label">TL / Yıl</div></div>
+            <div class="savings-divider"></div>
+            <div class="savings-item"><div class="savings-pct" id="save-pct">—</div><div class="savings-pct-label">% Tasarruf</div></div>
+          </div>
+        </div>
+        <div style="text-align:center;margin-top:18px;font-size:.78rem;color:var(--text-light);font-style:italic;">
+          * Çıkan sonuçlar tahmine dayalıdır, %100 doğruluk sunmaz.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section-pad">
+  <div class="container">
+    <div class="reveal" style="text-align:center;max-width:580px;margin:0 auto 0;">
+      <div class="section-label">Referans Projeler</div>
+      <h2 class="section-title">Sahadaki Çözümlerimiz</h2>
+      <p class="section-sub" style="margin:0 auto;">Farklı sektörlerde ve iklim koşullarında tamamlanan kurulumlardan seçkiler.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item large reveal delay-1"><img src="galeri-1.jpeg" alt="Evaporatif Referans Kurulum 1" loading="lazy" /><div class="gallery-overlay"></div></div>
+      <div class="gallery-item reveal delay-2"><img src="galeri-2.jpeg" alt="Evaporatif Referans 2" loading="lazy" /><div class="gallery-overlay"></div></div>
+      <div class="gallery-item reveal delay-3"><img src="galeri-3.jpeg" alt="Evaporatif Referans 3" loading="lazy" /><div class="gallery-overlay"></div></div>
+      <div class="gallery-item reveal delay-2"><img src="galeri-4.jpeg" alt="Evaporatif Referans 4" loading="lazy" /><div class="gallery-overlay"></div></div>
+      <div class="gallery-item reveal delay-3"><img src="galeri-5.png" alt="Evaporatif Kış Kurulum" loading="lazy" /><div class="gallery-overlay"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- REFERENCES -->
+<section id="references">
+  <div class="container">
+    <div class="ref-header reveal">
+      <p>Referanslarımız</p>
+      <h2>Sektör Liderlerinin Güvendiği Marka</h2>
+    </div>
+    <div class="ref-logos-grid reveal">
+      <div class="ref-logo-cell">
+        <img src="logo-arcelik.svg" alt="Arçelik" loading="lazy" />
+      </div>
+      <div class="ref-logo-cell">
+        <img src="logo-bosch.svg" alt="Bosch" loading="lazy" />
+      </div>
+      <div class="ref-logo-cell">
+        <img src="logo-bsh.svg" alt="BSH Hausgeräte" loading="lazy" />
+      </div>
+      <div class="ref-logo-cell">
+        <img src="logo-vestel.svg" alt="Vestel" loading="lazy" />
+      </div>
+      <div class="ref-logo-cell">
+        <img src="logo-pinar.svg" alt="Pınar" loading="lazy" />
+      </div>
+      <div class="ref-logo-cell">
+        <img src="logo-sutas.svg" alt="Sütaş" loading="lazy" />
+      </div>
+      <div class="ref-logo-cell">
+        <img src="logo-temsa.svg" alt="Temsa" loading="lazy" />
+      </div>
+      <div class="ref-logo-cell">
+        <img src="logo-eca.svg" alt="ECA" loading="lazy" />
+      </div>
+      <div class="ref-logo-cell">
+        <img src="logo-orkide.svg" alt="Orkide" loading="lazy" />
+      </div>
+      <div class="ref-logo-cell">
+        <img src="logo-forum.svg" alt="Forum Aydın" loading="lazy" />
+      </div>
+      <div class="ref-logo-cell">
+        <img src="logo-macaron.svg" alt="Macaron Moda" loading="lazy" />
+      </div>
+      <div class="ref-logo-cell">
+        <img src="logo-megametal.svg" alt="Mega Metal" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="why-us" class="section-pad">
+  <div class="container">
+    <div class="reveal" style="text-align:center;max-width:600px;margin:0 auto;">
+      <div class="section-label">Neden Evaporatif?</div>
+      <h2 class="section-title">Rakip Sistemlerde Olmayan Avantajlar</h2>
+      <p class="section-sub" style="margin:0 auto;">Geleneksel klimayla karşılaştırdığınızda fark, ilerleyen aydan itibaren faturanıza yansır.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal delay-1">
+        <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+        <h3>Düşük İşletme Maliyeti</h3>
+        <p>Kompresörsüz çalışma prensibi sayesinde geleneksel klimaya göre %75–80 daha az elektrik harcar. Yatırımın geri dönüşü çoğunlukla ilk sezonun sonunda tamamlanır.</p>
+      </div>
+      <div class="why-card reveal delay-2">
+        <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M12 22a10 10 0 100-20 10 10 0 000 20z"/><path d="M8 12h8M12 8v8"/></svg></div>
+        <h3>Kaliteli İç Hava</h3>
+        <p>Dışarıdan sürekli taze hava alındığı için CO₂ birikimi, zararlı bakteri ve virüs oluşmaz. Özel filtre sistemi tehlikeli partikülleri uzak tutar. Üretim verimliliği artar.</p>
+      </div>
+      <div class="why-card reveal delay-3">
+        <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h3>CE Belgeli Yerli Üretim</h3>
+        <p>Tüm modeller Türkiye'de üretilmekte ve CE belgesiyle Avrupa standartlarını karşılamaktadır. Yedek parça ve teknik servis tesis ömrü boyunca garantiyle sağlanır.</p>
+      </div>
+      <div class="why-card reveal delay-1">
+        <div class="why-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+        <h3>Açık Alan Uyumluluğu</h3>
+        <p>Kapı ve pencerelerin açık kaldığı tesislerde bile etkin soğutma sağlar. Yükleme/boşaltma alanları, hangarlar ve açık üretim hatları için mükemmel çözümdür.</p>
+      </div>
+      <div class="why-card reveal delay-2">
+        <div class="why-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg></div>
+        <h3>Hızlı Kurulum</h3>
+        <p>Standart duct bağlantısı ile mevcut çatıya veya duvara tek günde monte edilir. Tesisin üretim sürecini aksatmadan devreye alınır, bakım gereksinimleri minimumdur.</p>
+      </div>
+      <div class="why-card reveal delay-3">
+        <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+        <h3>Doğal ve Çevreci</h3>
+        <p>Freon veya kimyasal soğutucu kullanılmaz. Geri dönüştürülebilir malzemelerle üretilir. Karbon ayak izi sıfıra yakın iklimlendirme ile sürdürülebilir fabrika hedefine ulaşın.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section-pad">
+  <div class="container">
+    <div class="reveal" style="margin-bottom:52px;">
+      <div class="section-label">Sıkça Sorulan Sorular</div>
+      <h2 class="section-title">Aklınızdaki Soru İşaretlerini Giderelim</h2>
+      <p class="section-sub">Müşterilerimizin en çok merak ettiği konuları derledik. Cevap bulamazsanız bize ulaşın.</p>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-list">
+        <div class="faq-item open">
+          <div class="faq-q" onclick="toggleFaq(this)">Evaporatif soğutma nemli havalarda da çalışır mı?<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
+          <div class="faq-a">Evaporatif soğutma, kuru ve sıcak havalarda en yüksek verimliliğe ulaşır. Türkiye genelinde yaz aylarının büyük bölümünde bağıl nem %40–65 arasında kalır ve bu aralıkta evaporatif sistemler son derece etkilidir. Kıyı bölgelerinde (Karadeniz, Ege sahili gibi nem >%70) etkinlik kısmen düşse de taze hava sirkülasyonu avantajı devam eder.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">Geleneksel klima ile aynı sıcaklığa ulaşabilir mi?<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
+          <div class="faq-a">Evaporatif soğutma, çalışanların termal konfor hissini artırmaya odaklanır; dış sıcaklığa göre 12–15 °C soğutma sağlar. Kapalı ofis tipi alanlar için değil; fabrika, atölye, hangar, lojistik merkez, fuar alanı gibi büyük açık-yarı açık hacimler için tasarlanmıştır. Bu uygulamalarda geleneksel VRF/chiller sistemlerle kıyaslandığında hem maliyet hem konfor açısından üstündür.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">Kaç adet cihaza ihtiyaç duyarım?<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
+          <div class="faq-a">Cihaz adedi; tesisin kapalı alanı (m²), tavan yüksekliği, ısı yükü (makine, insan, güneş) ve hava değişim ihtiyacına göre belirlenir. Genel kural: EVA 20 → ~400 m², EVA 40 → ~800 m², EVA 80 → ~2000 m²'ye kadar etkin soğutma sağlar. Teknik ekibimiz ücretsiz saha analizi ve proje tasarımı sunmaktadır.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">Su tüketimi ne kadar? Gider büyük olur mu?<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
+          <div class="faq-a">Model ve dış sıcaklığa göre değişmekle birlikte, EVA 40 modeli günlük 8 saat çalışmada yaklaşık 150–250 litre su tüketir. Bu su tüketimi, elde edilen enerji tasarrufu (aylık yüzlerce ile binlerce TL) ile kıyaslandığında son derece ekonomiktir. Şebeke suyuna bağlantı yeterlidir; özel su arıtma sistemi gerekmez.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">Bakım ve servis nasıl sağlanıyor?<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
+          <div class="faq-a">Yıllık bakım oldukça basittir: selüloz pad temizliği veya değişimi, pompa ve su filtresi kontrolü. Tüm yedek parçalar stokta tutulmaktadır. Teknik servis ekibimiz Denizli ve İstanbul ofislerimizden saha desteği sağlar. Garanti süresi boyunca ücretsiz teknik destek verilmektedir.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">Kurulum ne kadar sürer? Üretimi durdurmak gerekir mi?<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
+          <div class="faq-a">Standart tek cihaz kurulumu (çatıya veya duvara montaj) genellikle 1 iş gününde tamamlanır. Büyük projeler için planlama yapılarak hafta sonu veya gece vardiyasında devreye alma mümkündür. Kurulum süresince üretim büyük ölçüde devam edebilir.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">Hangi sektörlerde kullanılabilir?<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
+          <div class="faq-a">Tekstil, gıda, otomotiv, lojistik, depolama, tarım (sera), fuar/etkinlik alanları, AVM yükleme rampası, askeri hangar, çağrı merkezi ve her türlü büyük hacimli endüstriyel mekan. Başta Arçelik, Bosch, BSH, Vestel, Sütaş, Pınar, Temsa ve Forum AVM gibi sektör liderlerine referans kurulumlarımız bulunmaktadır.</div>
+        </div>
+      </div>
+      <div>
+        <div class="faq-cta-box reveal-right">
+          <h3>Sorunuzu Bulamadınız mı?</h3>
+          <p>Teknik ekibimiz tesisinize özel çözüm önerisi sunmak için hazır. Ücretsiz keşif randevusu alın.</p>
+          <button class="faq-cta-btn" onclick="showContact()">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Bize Ulaşın
+          </button>
+          <div class="faq-cta-contacts">
+            <div class="faq-contact-line">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Sabit Hat: <a href="tel:02582155019">0258 215 50 19</a>
+            </div>
+            <div class="faq-contact-line">
+              <svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+              WhatsApp: <a href="https://wa.me/905324931506" target="_blank">0532 493 15 06</a>
+            </div>
+            <div class="faq-contact-line">
+              <svg viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0116 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Denizli / İstanbul
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo"><img src="logo.png" alt="Evaporatif Logo" /></div>
+        <p class="footer-desc">Evaporatif Soğutma Ve Isıtma Sistemleri Arge Teknoloji San. Ve Tic. A.Ş. — Endüstriyel tesisler için kompresörsüz evaporatif soğutma. CE belgeli, Türkiye üretimi.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/evaporatifturkiye" target="_blank" class="footer-social-link" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="https://wa.me/905324931506" target="_blank" class="footer-social-link" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Sayfalar</h4>
+        <ul class="footer-links">
+          <li><span onclick="goHome()">Ana Sayfa</span></li>
+          <li><span onclick="goHome('how-it-works')">Teknoloji</span></li>
+          <li><span onclick="goHome('calculator')">Tasarruf Hesapla</span></li>
+          <li><span onclick="goHome('gallery')">Referanslar</span></li>
+          <li><span onclick="showProducts()">Ürünler</span></li>
+          <li><span onclick="showContact()">İletişim</span></li>
+          <li><a href="catalog.pdf" target="_blank">E-Katalog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>İletişim</h4>
+        <ul class="footer-links">
+          <li><a href="tel:02582155019">0258 215 50 19</a></li>
+          <li><a href="https://wa.me/905324931506" target="_blank">0532 493 15 06 (WA)</a></li>
+          <li><a href="https://www.instagram.com/evaporatifturkiye" target="_blank">@evaporatifturkiye</a></li>
+          <li><a href="mailto:info@evaporatif.com.tr">info@evaporatif.com.tr</a></li>
+          <li><span style="opacity:.5;font-size:.8rem;">Denizli · İstanbul</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Evaporatif Soğutma Ve Isıtma Sistemleri A.Ş. Tüm hakları saklıdır.</p>
+      <p style="opacity:.4;font-size:.72rem;">CE Sertifikalı · Türkiye Üretimi · Arge Teknoloji</p>
+    </div>
+  </div>
+</footer>
+
+</div><!-- end #page-home -->
+
+<!-- ========= ÜRÜNLER SAYFASI ========= -->
+<div id="page-products">
+  <div class="page-hero">
+    <div class="container page-hero-inner">
+      <div class="breadcrumb">
+        <span onclick="goHome()">Ana Sayfa</span>
+        <span class="breadcrumb-sep">/</span>
+        <span>Ürünler</span>
+      </div>
+      <h1>Ürün Modelleri</h1>
+      <p>Küçük atölyeden büyük sanayi tesisine kadar her ihtiyaca uygun modeller.</p>
+      <a href="catalog.pdf" target="_blank" class="btn-primary" style="background:white;color:var(--blue);">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        E-Katalogu İndir
+      </a>
+    </div>
+  </div>
+
+  <div class="products-page-section">
+    <div class="container">
+      <div class="products-full-grid">
+
+        <!-- EVA 20 -->
+        <div class="product-card" id="product-eva20">
+          <div class="product-img-wrap"><span class="product-model-badge">EVA 20</span><img src="20.jpg" alt="Evaporatif EVA 20" loading="lazy" /></div>
+          <div class="product-body">
+            <div class="product-name">EVA 20</div>
+            <div class="product-area"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18"/></svg>400 m²'ye kadar etkili soğutma</div>
+            <div class="product-specs">
+              <div class="spec-item"><div class="spec-label">Hava Debisi</div><div class="spec-value">20.000 m³/h</div></div>
+              <div class="spec-item"><div class="spec-label">Motor Gücü</div><div class="spec-value">1,1 kW</div></div>
+              <div class="spec-item"><div class="spec-label">Besleme</div><div class="spec-value">220 V / 50 Hz</div></div>
+              <div class="spec-item"><div class="spec-label">Pad Kalınlığı</div><div class="spec-value">150 mm</div></div>
+            </div>
+            <div class="product-cta">
+              <span class="product-cta-link" onclick="showContact()">Teknik Destek<svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></span>
+              <a href="https://wa.me/905324931506?text=EVA%2020%20modeli%20için%20teklif%20almak%20istiyorum." target="_blank" class="btn-primary" style="padding:9px 18px;font-size:.78rem;">Teklif Al</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- EVA 30 -->
+        <div class="product-card" id="product-eva30">
+          <div class="product-img-wrap"><span class="product-model-badge">EVA 30</span><img src="30.jpg" alt="Evaporatif EVA 30" loading="lazy" /></div>
+          <div class="product-body">
+            <div class="product-name">EVA 30</div>
+            <div class="product-area"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18"/></svg>600 m²'ye kadar etkili soğutma</div>
+            <div class="product-specs">
+              <div class="spec-item"><div class="spec-label">Hava Debisi</div><div class="spec-value">30.000 m³/h</div></div>
+              <div class="spec-item"><div class="spec-label">Motor Gücü</div><div class="spec-value">2,2 kW</div></div>
+              <div class="spec-item"><div class="spec-label">Besleme</div><div class="spec-value">380 V / 50 Hz</div></div>
+              <div class="spec-item"><div class="spec-label">Pad Kalınlığı</div><div class="spec-value">150 mm</div></div>
+            </div>
+            <div class="product-cta">
+              <span class="product-cta-link" onclick="showContact()">Teknik Destek<svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></span>
+              <a href="https://wa.me/905324931506?text=EVA%2030%20modeli%20için%20teklif%20almak%20istiyorum." target="_blank" class="btn-primary" style="padding:9px 18px;font-size:.78rem;">Teklif Al</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- EVA 40 -->
+        <div class="product-card" id="product-eva40">
+          <div class="product-img-wrap"><span class="product-model-badge">EVA 40</span><img src="40.jpg" alt="Evaporatif EVA 40" loading="lazy" /></div>
+          <div class="product-body">
+            <div class="product-name">EVA 40</div>
+            <div class="product-area"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18"/></svg>800 m²'ye kadar etkili soğutma</div>
+            <div class="product-specs">
+              <div class="spec-item"><div class="spec-label">Hava Debisi</div><div class="spec-value">40.000 m³/h</div></div>
+              <div class="spec-item"><div class="spec-label">Motor Gücü</div><div class="spec-value">3,0 kW</div></div>
+              <div class="spec-item"><div class="spec-label">Besleme</div><div class="spec-value">380 V / 50 Hz</div></div>
+              <div class="spec-item"><div class="spec-label">Pad Kalınlığı</div><div class="spec-value">150 mm</div></div>
+            </div>
+            <div class="product-cta">
+              <span class="product-cta-link" onclick="showContact()">Teknik Destek<svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></span>
+              <a href="https://wa.me/905324931506?text=EVA%2040%20modeli%20için%20teklif%20almak%20istiyorum." target="_blank" class="btn-primary" style="padding:9px 18px;font-size:.78rem;">Teklif Al</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- EVA 60 -->
+        <div class="product-card" id="product-eva60">
+          <div class="product-img-wrap"><span class="product-model-badge">EVA 60</span><img src="60.jpg" alt="Evaporatif EVA 60" loading="lazy" /></div>
+          <div class="product-body">
+            <div class="product-name">EVA 60</div>
+            <div class="product-area"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18"/></svg>1.200 m²'ye kadar etkili soğutma</div>
+            <div class="product-specs">
+              <div class="spec-item"><div class="spec-label">Hava Debisi</div><div class="spec-value">60.000 m³/h</div></div>
+              <div class="spec-item"><div class="spec-label">Motor Gücü</div><div class="spec-value">4,0 kW</div></div>
+              <div class="spec-item"><div class="spec-label">Besleme</div><div class="spec-value">380 V / 50 Hz</div></div>
+              <div class="spec-item"><div class="spec-label">Pad Kalınlığı</div><div class="spec-value">150 mm</div></div>
+            </div>
+            <div class="product-cta">
+              <span class="product-cta-link" onclick="showContact()">Teknik Destek<svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></span>
+              <a href="https://wa.me/905324931506?text=EVA%2060%20modeli%20için%20teklif%20almak%20istiyorum." target="_blank" class="btn-primary" style="padding:9px 18px;font-size:.78rem;">Teklif Al</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- EVA 80 -->
+        <div class="product-card" id="product-eva80">
+          <div class="product-img-wrap"><span class="product-model-badge">EVA 80</span><img src="80.jpg" alt="Evaporatif EVA 80" loading="lazy" /></div>
+          <div class="product-body">
+            <div class="product-name">EVA 80</div>
+            <div class="product-area"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18"/></svg>2.000 m² ve üzeri büyük tesisler</div>
+            <div class="product-specs">
+              <div class="spec-item"><div class="spec-label">Hava Debisi</div><div class="spec-value">80.000 m³/h</div></div>
+              <div class="spec-item"><div class="spec-label">Motor Gücü</div><div class="spec-value">7,5 kW</div></div>
+              <div class="spec-item"><div class="spec-label">Besleme</div><div class="spec-value">380 V / 50 Hz</div></div>
+              <div class="spec-item"><div class="spec-label">Pad Kalınlığı</div><div class="spec-value">150 mm</div></div>
+            </div>
+            <div class="product-cta">
+              <span class="product-cta-link" onclick="showContact()">Teknik Destek<svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></span>
+              <a href="https://wa.me/905324931506?text=EVA%2080%20modeli%20için%20teklif%20almak%20istiyorum." target="_blank" class="btn-primary" style="padding:9px 18px;font-size:.78rem;">Teklif Al</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA CARD -->
+        <div class="product-card" style="background:linear-gradient(135deg,var(--blue-dark),var(--blue));border:none;justify-content:center;align-items:center;padding:40px 32px;text-align:center;">
+          <div style="color:white;">
+            <div style="width:56px;height:56px;background:rgba(255,255,255,.15);border-radius:16px;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <h3 style="font-size:1.3rem;font-weight:800;margin-bottom:12px;letter-spacing:-.02em;">Doğru Modeli Birlikte Seçelim</h3>
+            <p style="font-size:.88rem;color:rgba(255,255,255,.75);line-height:1.7;margin-bottom:28px;">Tesisinizin m², tavan yüksekliği ve ısı yüküne göre ücretsiz proje tasarımı yapıyoruz.</p>
+            <a onclick="showContact()" class="btn-primary" style="background:white;color:var(--blue);width:100%;justify-content:center;cursor:pointer;">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              İletişime Geçin & Teklif Alın
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer for products page -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-logo"><img src="logo.png" alt="Evaporatif Logo" /></div>
+          <p class="footer-desc">Evaporatif Soğutma Ve Isıtma Sistemleri A.Ş. — CE belgeli, Türkiye üretimi endüstriyel soğutma çözümleri.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/evaporatifturkiye" target="_blank" class="footer-social-link" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="https://wa.me/905324931506" target="_blank" class="footer-social-link" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navigasyon</h4>
+          <ul class="footer-links">
+            <li><span onclick="goHome()">Ana Sayfa</span></li>
+            <li><span onclick="goHome('how-it-works')">Teknoloji</span></li>
+            <li><span onclick="goHome('calculator')">Tasarruf Hesapla</span></li>
+            <li><span onclick="goHome('gallery')">Referanslar</span></li>
+            <li><span onclick="showProducts()">Ürünler</span></li>
+            <li><span onclick="showContact()">İletişim</span></li>
+            <li><a href="catalog.pdf" target="_blank">E-Katalog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>İletişim</h4>
+          <ul class="footer-links">
+            <li><a href="tel:02582155019">0258 215 50 19</a></li>
+            <li><a href="https://wa.me/905324931506" target="_blank">0532 493 15 06 (WA)</a></li>
+            <li><a href="https://www.instagram.com/evaporatifturkiye" target="_blank">@evaporatifturkiye</a></li>
+            <li><a href="mailto:info@evaporatif.com.tr">info@evaporatif.com.tr</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Evaporatif Soğutma Ve Isıtma Sistemleri A.Ş.</p>
+        <p style="opacity:.4;font-size:.72rem;">CE Sertifikalı · Türkiye Üretimi</p>
+      </div>
+    </div>
+  </footer>
+</div><!-- end #page-products -->
+
+<!-- ========= İLETİŞİM SAYFASI ========= -->
+<div id="page-contact">
+  <div class="page-hero">
+    <div class="container page-hero-inner">
+      <div class="breadcrumb">
+        <span onclick="goHome()">Ana Sayfa</span>
+        <span class="breadcrumb-sep">/</span>
+        <span>İletişim</span>
+      </div>
+      <h1>İletişim & Teklif Talebi</h1>
+      <p>Tesisinizin büyüklüğü ve koşullarına göre size özel evaporatif soğutma konfigürasyonu hazırlıyoruz. Uzman mühendis ekibimiz 24 saat içinde geri döner.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:20px;">
+        <a href="https://wa.me/905324931506?text=Evaporatif%20soğutma%20hakkında%20bilgi%20ve%20teklif%20almak%20istiyorum." target="_blank" class="btn-primary" style="background:white;color:var(--blue);">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+          WhatsApp ile Hızlı Ulaşın
+        </a>
+        <a href="tel:02582155019" class="btn-secondary" style="color:white;border-color:rgba(255,255,255,.6);">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          0258 215 50 19
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-page-section" style="padding:80px 0;">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <div class="section-label">Bize Ulaşın</div>
+          <h2 class="section-title">Projenizi Birlikte<br />Değerlendirelim</h2>
+          <p class="section-sub">Fabrikanız, atölyeniz veya depolama alanınız için en verimli iklimlendirme projesini birlikte oluşturalım.</p>
+          
+          <div class="contact-items">
+            <a href="tel:02582155019" class="contact-item">
+              <div class="contact-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+              <div class="contact-item-body"><div class="contact-item-label">Sabit Hat</div><div class="contact-item-val">0258 215 50 19</div></div>
+            </a>
+            <a href="https://wa.me/905324931506" target="_blank" class="contact-item">
+              <div class="contact-item-icon" style="background:#25d366;"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg></div>
+              <div class="contact-item-body"><div class="contact-item-label">WhatsApp Danışma</div><div class="contact-item-val">0532 493 15 06</div></div>
+            </a>
+            <a href="mailto:info@evaporatif.com.tr" class="contact-item">
+              <div class="contact-item-icon" style="background:#ea4335;"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+              <div class="contact-item-body"><div class="contact-item-label">E-Posta</div><div class="contact-item-val">info@evaporatif.com.tr</div></div>
+            </a>
+            <a href="https://www.instagram.com/evaporatifturkiye" target="_blank" class="contact-item">
+              <div class="contact-item-icon" style="background:linear-gradient(135deg,#e1306c,#833ab4);"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></div>
+              <div class="contact-item-body"><div class="contact-item-label">Instagram</div><div class="contact-item-val">@evaporatifturkiye</div></div>
+            </a>
+            <div class="contact-item" style="cursor:default;">
+              <div class="contact-item-icon"><svg viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0116 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <div class="contact-item-body"><div class="contact-item-label">Ofislerimiz</div><div class="contact-item-val" style="font-size:.88rem;line-height:1.6;"><strong>Denizli:</strong> Fabrika & Ar-Ge Merkezi<br /><strong>İstanbul:</strong> Bölge Temsilciliği (Beykoz)</div></div>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <div class="contact-form-wrap">
+            <h3>Teklif Talep Formu</h3>
+            <form class="contact-form" id="contact-form-page" onsubmit="handleContactPageSubmit(event)">
+              <input type="text" placeholder="Adınız Soyadınız *" id="cfp-name" required />
+              <input type="text" placeholder="Firma Adı *" id="cfp-company" required />
+              <input type="tel" placeholder="Telefon Numaranız *" id="cfp-phone" required />
+              <input type="text" placeholder="Tesis Konumu (Şehir)" id="cfp-city" />
+              <input type="number" placeholder="Soğutulacak Alan (m²)" id="cfp-area" />
+              <textarea placeholder="Notlar, özel gereksinimler, tavan yüksekliği vb..." id="cfp-note"></textarea>
+              <button type="submit" class="btn-primary" style="width:100%;justify-content:center;">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                WhatsApp ile Teklif Gönder
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer for contact page -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-logo"><img src="logo.png" alt="Evaporatif Logo" /></div>
+          <p class="footer-desc">Evaporatif Soğutma Ve Isıtma Sistemleri A.Ş. — CE belgeli, Türkiye üretimi endüstriyel soğutma çözümleri.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/evaporatifturkiye" target="_blank" class="footer-social-link" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="https://wa.me/905324931506" target="_blank" class="footer-social-link" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navigasyon</h4>
+          <ul class="footer-links">
+            <li><span onclick="goHome()">Ana Sayfa</span></li>
+            <li><span onclick="goHome('how-it-works')">Teknoloji</span></li>
+            <li><span onclick="goHome('calculator')">Tasarruf Hesapla</span></li>
+            <li><span onclick="goHome('gallery')">Referanslar</span></li>
+            <li><span onclick="showProducts()">Ürünler</span></li>
+            <li><span onclick="showContact()">İletişim</span></li>
+            <li><a href="catalog.pdf" target="_blank">E-Katalog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>İletişim</h4>
+          <ul class="footer-links">
+            <li><a href="tel:02582155019">0258 215 50 19</a></li>
+            <li><a href="https://wa.me/905324931506" target="_blank">0532 493 15 06 (WA)</a></li>
+            <li><a href="https://www.instagram.com/evaporatifturkiye" target="_blank">@evaporatifturkiye</a></li>
+            <li><a href="mailto:info@evaporatif.com.tr">info@evaporatif.com.tr</a></li>
+            <li><span style="opacity:.5;font-size:.8rem;">Denizli · İstanbul</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Evaporatif Soğutma Ve Isıtma Sistemleri A.Ş.</p>
+        <p style="opacity:.4;font-size:.72rem;">CE Sertifikalı · Türkiye Üretimi</p>
+      </div>
+    </div>
+  </footer>
+</div><!-- end #page-contact -->
+
+<!-- WHATSAPP STICKY -->
+<a href="https://wa.me/905324931506" target="_blank" id="whatsapp-btn" aria-label="WhatsApp ile iletişim">
+  <div class="whatsapp-ring"></div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="white">
+    <path d="M16 .5C7.44.5.5 7.44.5 16c0 2.75.73 5.44 2.1 7.82L.5 31.5l8.06-2.07A15.44 15.44 0 0016 31.5C24.56 31.5 31.5 24.56 31.5 16S24.56.5 16 .5zm0 28.2a13.6 13.6 0 01-6.86-1.86l-.49-.3-5.06 1.3 1.34-4.88-.32-.51A13.7 13.7 0 1116 28.7zm7.5-10.27c-.41-.2-2.43-1.19-2.8-1.33-.38-.13-.65-.2-.93.2-.27.4-1.07 1.33-1.31 1.6-.24.27-.48.3-.89.1-.41-.2-1.73-.63-3.3-2.02-1.22-1.08-2.04-2.41-2.28-2.82-.24-.4-.03-.62.18-.82.18-.18.41-.48.61-.72.2-.24.27-.4.4-.67.14-.27.07-.5-.03-.7-.1-.2-.93-2.23-1.27-3.05-.33-.8-.67-.69-.93-.7h-.79c-.27 0-.72.1-1.1.5-.37.4-1.43 1.4-1.43 3.41s1.46 3.95 1.67 4.23c.2.27 2.88 4.4 6.98 6.17 4.1 1.77 4.1 1.18 4.84 1.11.74-.07 2.43-.99 2.78-1.95.34-.96.34-1.79.24-1.96-.1-.17-.37-.27-.78-.48z"/>
+  </svg>
+</a>
+
+<!-- ========= JAVASCRIPT ========= -->
+<script>
+  /* NAVBAR & SCROLL SPY */
+  const navbar = document.getElementById('navbar');
+
+  const navLinksMap = [
+    { targetId: 'hero', navId: 'nav-link-home', mobId: 'mob-link-home' },
+    { targetId: 'advantages-strip', navId: 'nav-link-home', mobId: 'mob-link-home' },
+    { targetId: 'how-it-works', navId: 'nav-link-how-it-works', mobId: 'mob-link-how-it-works' },
+    { targetId: 'about', navId: 'nav-link-how-it-works', mobId: 'mob-link-how-it-works' },
+    { targetId: 'calculator', navId: 'nav-link-calculator', mobId: 'mob-link-calculator' },
+    { targetId: 'gallery', navId: 'nav-link-gallery', mobId: 'mob-link-gallery' },
+    { targetId: 'references', navId: 'nav-link-gallery', mobId: 'mob-link-gallery' },
+    { targetId: 'why-us', navId: 'nav-link-gallery', mobId: 'mob-link-gallery' },
+    { targetId: 'faq', navId: 'nav-link-gallery', mobId: 'mob-link-gallery' }
+  ];
+
+  function setActiveNavLink(navId, mobId) {
+    document.querySelectorAll('.nav-links a:not(.nav-cta):not(.nav-katalog)').forEach(el => el.classList.remove('active-nav'));
+    document.querySelectorAll('.mobile-link').forEach(el => el.classList.remove('active-nav'));
+    if (navId) {
+      const target = document.getElementById(navId);
+      if (target) target.classList.add('active-nav');
+    }
+    if (mobId) {
+      const mobTarget = document.getElementById(mobId);
+      if (mobTarget) mobTarget.classList.add('active-nav');
+    }
+  }
+
+  let isProgrammaticScroll = false;
+  let scrollTimeout = null;
+
+  function updateScrollSpy() {
+    if (document.body.classList.contains('products-active')) {
+      setActiveNavLink('nav-link-products', 'mob-link-products');
+      return;
+    }
+    if (document.body.classList.contains('contact-active')) {
+      setActiveNavLink('nav-link-contact', 'mob-link-contact');
+      return;
+    }
+    if (isProgrammaticScroll) return;
+
+    const scrollPos = window.scrollY || window.pageYOffset;
+    if (scrollPos < 120) {
+      setActiveNavLink('nav-link-home', 'mob-link-home');
+      return;
+    }
+
+    const triggerPoint = scrollPos + 180;
+    let currentNavId = 'nav-link-home';
+    let currentMobId = 'mob-link-home';
+
+    for (let i = 0; i < navLinksMap.length; i++) {
+      const item = navLinksMap[i];
+      const section = document.getElementById(item.targetId);
+      if (section) {
+        const top = section.offsetTop;
+        if (triggerPoint >= top) {
+          currentNavId = item.navId;
+          currentMobId = item.mobId;
+        }
+      }
+    }
+
+    setActiveNavLink(currentNavId, currentMobId);
+  }
+
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 20);
+    updateScrollSpy();
+  }, { passive: true });
+
+  /* HAMBURGER & MOBILE SUBMENU */
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobile-menu');
+  hamburger.addEventListener('click', () => { hamburger.classList.toggle('open'); mobileMenu.classList.toggle('open'); });
+  document.querySelectorAll('.mobile-menu a, .mobile-submenu span').forEach(l => l.addEventListener('click', () => { hamburger.classList.remove('open'); mobileMenu.classList.remove('open'); }));
+
+  function toggleMobileSubmenu() {
+    const wrap = document.getElementById('mob-dropdown-wrap');
+    if (wrap) wrap.classList.toggle('open');
+  }
+
+  /* PAGE SWITCH (3-PAGE SPA) */
+  function showProducts(modelId) {
+    document.body.classList.remove('contact-active');
+    document.body.classList.add('products-active');
+    setActiveNavLink('nav-link-products', 'mob-link-products');
+    hamburger.classList.remove('open');
+    mobileMenu.classList.remove('open');
+
+    if (modelId) {
+      setTimeout(() => {
+        const el = document.getElementById(modelId);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          el.classList.remove('highlight-card');
+          void el.offsetWidth;
+          el.classList.add('highlight-card');
+          setTimeout(() => el.classList.remove('highlight-card'), 2000);
+        } else {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      }, 80);
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+
+  function showContact() {
+    document.body.classList.remove('products-active');
+    document.body.classList.add('contact-active');
+    setActiveNavLink('nav-link-contact', 'mob-link-contact');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    hamburger.classList.remove('open');
+    mobileMenu.classList.remove('open');
+  }
+
+  function goHome(sectionId) {
+    const wasOtherActive = document.body.classList.contains('products-active') || document.body.classList.contains('contact-active');
+    document.body.classList.remove('products-active');
+    document.body.classList.remove('contact-active');
+    hamburger.classList.remove('open');
+    mobileMenu.classList.remove('open');
+
+    if (sectionId) {
+      const matched = navLinksMap.find(item => item.targetId === sectionId);
+      if (matched) {
+        setActiveNavLink(matched.navId, matched.mobId);
+      }
+      isProgrammaticScroll = true;
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(() => {
+        isProgrammaticScroll = false;
+        updateScrollSpy();
+      }, 900);
+
+      const delay = wasOtherActive ? 60 : 0;
+      setTimeout(() => {
+        const el = document.getElementById(sectionId);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, delay);
+    } else {
+      setActiveNavLink('nav-link-home', 'mob-link-home');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+
+  document.getElementById('nav-home-logo').addEventListener('click', (e) => { e.preventDefault(); goHome(); });
+
+  /* SCROLL REVEAL */
+  const revealEls = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); revealObserver.unobserve(entry.target); } });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  revealEls.forEach(el => revealObserver.observe(el));
+
+  /* COUNT UP */
+  function animateCount(el, target, duration = 1600) {
+    let start = 0;
+    const step = (ts) => {
+      if (!start) start = ts;
+      const progress = Math.min((ts - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.round(eased * target);
+      if (progress < 1) requestAnimationFrame(step);
+      else el.textContent = target;
+    };
+    requestAnimationFrame(step);
+  }
+  const countObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCount(entry.target, parseInt(entry.target.dataset.target, 10));
+        countObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+  document.querySelectorAll('.count-up').forEach(el => countObserver.observe(el));
+
+  /* FAQ */
+  function toggleFaq(btn) {
+    const item = btn.parentElement;
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
+
+  /* CALCULATOR */
+  const cihazModelleri = {
+    "EVA 20": { debi_m3_h: 20000, motor_gucu_kw: 1.1 },
+    "EVA 30": { debi_m3_h: 30000, motor_gucu_kw: 2.2 },
+    "EVA 40": { debi_m3_h: 40000, motor_gucu_kw: 3.0 },
+    "EVA 60": { debi_m3_h: 60000, motor_gucu_kw: 4.0 },
+    "EVA 80": { debi_m3_h: 80000, motor_gucu_kw: 7.5 }
+  };
+
+  const BIRIM_FIYAT = 5.20; // TL/kWh
+  const TRAD_KW_PER_M2 = 0.15; // kW/m²
+  const TAVAN_YUKSEKLIGI = 5; // metre (endüstriyel standart)
+  const HAVA_DEGISIM_KATSAYISI = 15; // saatlik hava sirkülasyon katsayısı
+
+  document.getElementById('calc-btn').addEventListener('click', () => {
+    const modelEl = document.getElementById('model-select');
+    const areaEl = document.getElementById('area-input');
+    const hoursEl = document.getElementById('hours-input');
+    const daysEl = document.getElementById('days-input');
+
+    const secilenModel = modelEl.value;
+    const alan = Number(areaEl.value);
+    const gunlukSaat = Number(hoursEl.value);
+    const aylikGun = daysEl && daysEl.value ? Number(daysEl.value) : 26;
+
+    if (!secilenModel || !cihazModelleri[secilenModel]) { shake(modelEl); return; }
+    if (!alan || alan < 10) { shake(areaEl); return; }
+    if (!gunlukSaat || gunlukSaat < 1 || gunlukSaat > 24) { shake(hoursEl); return; }
+    if (!aylikGun || aylikGun < 1 || aylikGun > 31) { shake(daysEl); return; }
+
+    // Geleneksel Gazlı Klima Maliyet Hesabı
+    const toplam_geleneksel_kw = alan * TRAD_KW_PER_M2;
+    const aylik_geleneksel_kwh = toplam_geleneksel_kw * gunlukSaat * aylikGun;
+    const aylik_geleneksel_tl = aylik_geleneksel_kwh * BIRIM_FIYAT;
+    const yillik_geleneksel_tl = aylik_geleneksel_tl * 12;
+
+    // Evaporatif Klima Maliyet Hesabı (Alana Göre Otomatik Cihaz Adedi)
+    const fabrika_hacmi_m3 = alan * TAVAN_YUKSEKLIGI;
+    const gereken_toplam_hava_debisi = fabrika_hacmi_m3 * HAVA_DEGISIM_KATSAYISI;
+    const secilen_model_debisi = cihazModelleri[secilenModel].debi_m3_h;
+    const gereken_cihaz_adedi = Math.ceil(gereken_toplam_hava_debisi / secilen_model_debisi);
+    const toplam_evaporatif_kw = gereken_cihaz_adedi * cihazModelleri[secilenModel].motor_gucu_kw;
+    const aylik_evaporatif_kwh = toplam_evaporatif_kw * gunlukSaat * aylikGun;
+    const aylik_evaporatif_tl = aylik_evaporatif_kwh * BIRIM_FIYAT;
+    const yillik_evaporatif_tl = aylik_evaporatif_tl * 12;
+
+    // Tasarruf Çıktıları
+    const aylik_tasarruf_tl = aylik_geleneksel_tl - aylik_evaporatif_tl;
+    const yillik_tasarruf_tl = aylik_tasarruf_tl * 12;
+    const tasarruf_orani_yuzde = Math.round(((aylik_geleneksel_tl - aylik_evaporatif_tl) / aylik_geleneksel_tl) * 100);
+    const evaRatio = Math.round((aylik_evaporatif_tl / aylik_geleneksel_tl) * 100);
+
+    // DOM Güncellemeleri
+    document.getElementById('result-title').textContent = `${alan.toLocaleString('tr-TR')} m² — ${secilenModel} Sonuçları`;
+    document.getElementById('result-desc').textContent = `${gunlukSaat} saat/gün · ${aylikGun} gün/ay çalışmaya göre hesaplanmıştır.`;
+    
+    const neededDeviceTextEl = document.getElementById('needed-device-text');
+    if (neededDeviceTextEl) {
+      neededDeviceTextEl.textContent = `${gereken_cihaz_adedi} Adet ${secilenModel}`;
+    }
+
+    document.getElementById('trad-monthly').textContent = fmt(aylik_geleneksel_tl);
+    document.getElementById('trad-yearly').textContent = `Yıllık: ${fmt(yillik_geleneksel_tl)}`;
+    document.getElementById('eva-monthly').textContent = fmt(aylik_evaporatif_tl);
+    document.getElementById('eva-yearly').textContent = `Yıllık: ${fmt(yillik_evaporatif_tl)}`;
+    
+    const deviceCountEl = document.getElementById('eva-device-count');
+    if (deviceCountEl) {
+      deviceCountEl.textContent = `Önerilen Cihaz Adedi: ${gereken_cihaz_adedi} Adet`;
+    }
+
+    document.getElementById('eva-pct-label').textContent = `${evaRatio}%`;
+    document.getElementById('save-monthly').textContent = fmt(aylik_tasarruf_tl);
+    document.getElementById('save-yearly').textContent = fmt(yillik_tasarruf_tl);
+    document.getElementById('save-pct').textContent = `%${tasarruf_orani_yuzde}`;
+
+    const resultEl = document.getElementById('calc-result');
+    resultEl.classList.add('show');
+    setTimeout(() => {
+      document.getElementById('trad-bar').style.width = '100%';
+      document.getElementById('eva-bar').style.width = Math.max(evaRatio, 2) + '%';
+    }, 80);
+    resultEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  });
+
+  function fmt(n) { return n.toLocaleString('tr-TR', { minimumFractionDigits: 0, maximumFractionDigits: 0 }) + ' TL'; }
+  function shake(el) {
+    el.style.animation = 'none'; el.offsetHeight;
+    el.style.animation = 'shake .4s ease';
+    el.style.borderColor = '#dc2626';
+    setTimeout(() => { el.style.borderColor = ''; el.style.animation = ''; }, 600);
+  }
+
+  /* CONTACT FORM (Page) */
+  function handleContactPageSubmit(e) {
+    e.preventDefault();
+    const n = document.getElementById('cfp-name').value.trim();
+    const c = document.getElementById('cfp-company').value.trim();
+    const p = document.getElementById('cfp-phone').value.trim();
+    const ci = document.getElementById('cfp-city').value.trim();
+    const a = document.getElementById('cfp-area').value.trim();
+    const no = document.getElementById('cfp-note').value.trim();
+    let msg = `Merhaba, teklif talep etmek istiyorum.\n\nAd Soyad: ${n}\nFirma: ${c}\nTelefon: ${p}`;
+    if (ci) msg += `\nKonum: ${ci}`;
+    if (a) msg += `\nAlan: ${a} m²`;
+    if (no) msg += `\nNot: ${no}`;
+    window.open(`https://wa.me/905324931506?text=${encodeURIComponent(msg)}`, '_blank');
+  }
+
+  /* ===================================================
+     BANNER SLIDER — Infinite Loop, Touch Swipe & Sync Engine
+  =================================================== */
+  (function () {
+    const DURATION = 8000; // Exact slide display duration: 8 seconds (8000ms)
+
+    const track      = document.getElementById('bannerTrack');
+    const origSlides = Array.from(track.querySelectorAll('.banner-slide'));
+    const dots       = Array.from(document.querySelectorAll('.banner-dot'));
+    const progress   = document.getElementById('bannerProgress');
+    const prevBtn    = document.getElementById('bannerPrevBtn');
+    const nextBtn    = document.getElementById('bannerNextBtn');
+    const REAL_COUNT = origSlides.length; // 3
+
+    if (!track || REAL_COUNT === 0) return;
+
+    origSlides.forEach((s, i) => {
+      s.dataset.logicalIndex = i;
+    });
+
+    /* ---------- Dual Cloning for Infinite Loop ---------- */
+    const cloneStart = origSlides[REAL_COUNT - 1].cloneNode(true);
+    cloneStart.setAttribute('aria-hidden', 'true');
+    cloneStart.id = 'slide-clone-start';
+    cloneStart.dataset.logicalIndex = REAL_COUNT - 1;
+    cloneStart.classList.remove('active');
+    track.insertBefore(cloneStart, origSlides[0]);
+
+    const cloneEnd = origSlides[0].cloneNode(true);
+    cloneEnd.setAttribute('aria-hidden', 'true');
+    cloneEnd.id = 'slide-clone-end';
+    cloneEnd.dataset.logicalIndex = 0;
+    cloneEnd.classList.remove('active');
+    track.appendChild(cloneEnd);
+
+    const allSlides = Array.from(track.querySelectorAll('.banner-slide'));
+    const TOTAL_SLIDES = allSlides.length; // 5
+
+    let currentLogicalIndex = 0;
+    let isMouseDown         = false;
+    let isTeleporting       = false;
+    let isUserInteracting   = false;
+    let isInitializing      = true;
+    let startX              = 0;
+    let startScroll         = 0;
+    let hasDragged          = false;
+    let scrollSettleTimer   = null;
+    let interactResumeTimer = null;
+
+    /* ---------- Frame-Accurate Progress & Autoplay Engine ---------- */
+    let animFrameId     = null;
+    let lastTimestamp   = null;
+    let currentProgress = 0; // 0 to 100
+
+    function progressLoop(timestamp) {
+      if (!lastTimestamp) lastTimestamp = timestamp;
+      let deltaTime = timestamp - lastTimestamp;
+      lastTimestamp = timestamp;
+
+      // Avoid huge jumps when returning from background tabs
+      if (deltaTime > 200) deltaTime = 16;
+
+      if (!isInitializing && !isMouseDown && !isTeleporting && !isUserInteracting) {
+        currentProgress += (deltaTime / DURATION) * 100;
+
+        if (currentProgress >= 100) {
+          currentProgress = 0;
+          nextSlide();
+        }
+
+        if (progress) {
+          progress.style.width = Math.min(100, Math.max(0, currentProgress)) + '%';
+        }
+      }
+
+      animFrameId = requestAnimationFrame(progressLoop);
+    }
+
+    function resetProgress() {
+      currentProgress = 0;
+      if (progress) {
+        progress.style.width = '0%';
+      }
+    }
+
+    /* ---------- Helper: Get logical index from DOM index ---------- */
+    function getLogicalIndex(domIdx) {
+      return ((domIdx - 1) % REAL_COUNT + REAL_COUNT) % REAL_COUNT;
+    }
+
+    /* ---------- Helper: Get current DOM index from scroll position ---------- */
+    function getCurrentDomIndex() {
+      const w = track.offsetWidth || window.innerWidth || 1;
+      return Math.round(track.scrollLeft / w);
+    }
+
+    /* ---------- Set Instant Scroll (Silent Teleport) ---------- */
+    function setSilentScroll(domIdx) {
+      const w = track.offsetWidth || window.innerWidth || 1;
+      isTeleporting = true;
+      track.style.scrollBehavior = 'auto';
+      track.style.scrollSnapType = 'none';
+      track.scrollLeft = domIdx * w;
+      void track.offsetWidth; // Force reflow
+      requestAnimationFrame(() => {
+        track.style.scrollBehavior = 'smooth';
+        track.style.scrollSnapType = 'x mandatory';
+        isTeleporting = false;
+      });
+    }
+
+    /* ---------- Smooth Scroll to DOM Index ---------- */
+    function scrollToDomIndex(domIdx, behavior = 'smooth') {
+      const w = track.offsetWidth || window.innerWidth || 1;
+      track.scrollTo({
+        left: domIdx * w,
+        behavior: behavior
+      });
+    }
+
+    /* ---------- Update UI (Active Slide, Dots & ARIA) ---------- */
+    function syncUI(logicalIdx) {
+      if (logicalIdx < 0 || logicalIdx >= REAL_COUNT) return;
+      currentLogicalIndex = logicalIdx;
+
+      allSlides.forEach((slide) => {
+        const idx = parseInt(slide.dataset.logicalIndex, 10);
+        slide.classList.toggle('active', idx === logicalIdx);
+      });
+
+      dots.forEach((dot, i) => {
+        const isActive = (i === logicalIdx);
+        dot.classList.toggle('active', isActive);
+        dot.setAttribute('aria-selected', isActive ? 'true' : 'false');
+        dot.setAttribute('tabindex', isActive ? '0' : '-1');
+      });
+    }
+
+    /* ---------- Teleport Check on Boundaries ---------- */
+    function checkAndTeleport() {
+      if (isTeleporting || isMouseDown) return;
+      const domIdx = getCurrentDomIndex();
+
+      if (domIdx === 0) {
+        // At Clone 3 -> teleport to real Slide 3
+        setSilentScroll(REAL_COUNT);
+        syncUI(REAL_COUNT - 1);
+      } else if (domIdx === TOTAL_SLIDES - 1) {
+        // At Clone 1 -> teleport to real Slide 1
+        setSilentScroll(1);
+        syncUI(0);
+      }
+    }
+
+    /* ---------- Slide Navigation ---------- */
+    function nextSlide() {
+      if (isMouseDown || isTeleporting) return;
+      const domIdx = getCurrentDomIndex();
+      scrollToDomIndex(domIdx + 1, 'smooth');
+    }
+
+    function prevSlide() {
+      if (isMouseDown || isTeleporting) return;
+      const domIdx = getCurrentDomIndex();
+      scrollToDomIndex(domIdx - 1, 'smooth');
+    }
+
+    /* ---------- Arrow Buttons Navigation ---------- */
+    if (prevBtn) {
+      prevBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        prevSlide();
+        resetProgress();
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        nextSlide();
+        resetProgress();
+      });
+    }
+
+    /* ---------- Mobile Touch Swipe Gestures ---------- */
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let touchStartScroll = 0;
+    let isTouching = false;
+    let isHorizontalScroll = null;
+    let touchDiffX = 0;
+
+    track.addEventListener('touchstart', (e) => {
+      if (e.touches.length !== 1) return;
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+      touchStartScroll = track.scrollLeft;
+      touchDiffX = 0;
+      isTouching = true;
+      isHorizontalScroll = null;
+      isUserInteracting = true;
+    }, { passive: true });
+
+    track.addEventListener('touchmove', (e) => {
+      if (!isTouching || e.touches.length !== 1) return;
+      const currentX = e.touches[0].clientX;
+      const currentY = e.touches[0].clientY;
+      const diffX = touchStartX - currentX;
+      const diffY = touchStartY - currentY;
+      touchDiffX = diffX;
+
+      if (isHorizontalScroll === null) {
+        if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 6) {
+          isHorizontalScroll = true;
+          track.style.scrollBehavior = 'auto';
+          track.style.scrollSnapType = 'none';
+        } else if (Math.abs(diffY) > 6) {
+          isHorizontalScroll = false;
+        }
+      }
+
+      if (isHorizontalScroll) {
+        track.scrollLeft = touchStartScroll + diffX;
+      }
+    }, { passive: true });
+
+    track.addEventListener('touchend', () => {
+      if (!isTouching) return;
+      isTouching = false;
+
+      if (isHorizontalScroll) {
+        track.style.scrollBehavior = 'smooth';
+        track.style.scrollSnapType = 'x mandatory';
+
+        const w = track.offsetWidth || window.innerWidth || 1;
+        const currentDom = Math.round(touchStartScroll / w);
+        let targetDomIdx = currentDom;
+
+        if (touchDiffX > 35) {
+          targetDomIdx = currentDom + 1;
+        } else if (touchDiffX < -35) {
+          targetDomIdx = currentDom - 1;
+        } else {
+          targetDomIdx = Math.round(track.scrollLeft / w);
+        }
+
+        scrollToDomIndex(targetDomIdx, 'smooth');
+        resetProgress();
+        setTimeout(checkAndTeleport, 200);
+      }
+
+      setTimeout(() => {
+        isUserInteracting = false;
+      }, 1000);
+    }, { passive: true });
+
+    /* ---------- Scroll Event Listeners ---------- */
+    track.addEventListener('scroll', () => {
+      if (isTeleporting || isInitializing) return;
+
+      const domIdx = getCurrentDomIndex();
+      const logicalIdx = getLogicalIndex(domIdx);
+
+      if (logicalIdx !== currentLogicalIndex) {
+        syncUI(logicalIdx);
+        resetProgress();
+      }
+
+      isUserInteracting = true;
+      clearTimeout(interactResumeTimer);
+      interactResumeTimer = setTimeout(() => {
+        isUserInteracting = false;
+      }, 1500);
+
+      clearTimeout(scrollSettleTimer);
+      scrollSettleTimer = setTimeout(() => {
+        checkAndTeleport();
+      }, 100);
+    }, { passive: true });
+
+    if ('onscrollend' in window) {
+      track.addEventListener('scrollend', () => {
+        if (!isInitializing) checkAndTeleport();
+      });
+    }
+
+    /* ---------- Dot Click Navigation ---------- */
+    dots.forEach((dot, logicalIdx) => {
+      dot.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetDomIdx = logicalIdx + 1;
+        scrollToDomIndex(targetDomIdx, 'smooth');
+        syncUI(logicalIdx);
+        resetProgress();
+      });
+    });
+
+    /* ---------- Keyboard Navigation (A11Y) ---------- */
+    track.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        prevSlide();
+        resetProgress();
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        nextSlide();
+        resetProgress();
+      } else if (e.key === 'Home') {
+        e.preventDefault();
+        scrollToDomIndex(1, 'smooth');
+        syncUI(0);
+        resetProgress();
+      } else if (e.key === 'End') {
+        e.preventDefault();
+        scrollToDomIndex(REAL_COUNT, 'smooth');
+        syncUI(REAL_COUNT - 1);
+        resetProgress();
+      }
+    });
+
+    /* ---------- Mouse Drag & Grab (Grab & Drag) ---------- */
+    track.addEventListener('mousedown', (e) => {
+      if (e.button !== 0) return;
+      isMouseDown = true;
+      hasDragged = false;
+      startX = e.pageX - track.offsetLeft;
+      startScroll = track.scrollLeft;
+      track.classList.add('is-dragging');
+      track.style.scrollBehavior = 'auto';
+      track.style.scrollSnapType = 'none';
+    });
+
+    window.addEventListener('mousemove', (e) => {
+      if (!isMouseDown) return;
+      const x = e.pageX - track.offsetLeft;
+      const walk = (x - startX);
+      if (Math.abs(walk) > 6) {
+        hasDragged = true;
+      }
+      track.scrollLeft = startScroll - walk;
+    });
+
+    function endMouseDrag() {
+      if (!isMouseDown) return;
+      isMouseDown = false;
+      track.classList.remove('is-dragging');
+      track.style.scrollBehavior = 'smooth';
+      track.style.scrollSnapType = 'x mandatory';
+
+      const targetDomIdx = getCurrentDomIndex();
+      scrollToDomIndex(targetDomIdx, 'smooth');
+      resetProgress();
+
+      setTimeout(() => {
+        hasDragged = false;
+        checkAndTeleport();
+      }, 60);
+    }
+
+    window.addEventListener('mouseup', endMouseDrag);
+
+    track.addEventListener('click', (e) => {
+      if (hasDragged) {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+    }, true);
+
+    /* ---------- Responsive Resize Handler ---------- */
+    let resizeTimer = null;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        const domIdx = currentLogicalIndex + 1;
+        setSilentScroll(domIdx);
+      }, 100);
+    });
+
+    /* ---------- Initial Setup (Guaranteed Launch) ---------- */
+    function initializeSlider() {
+      const w = track.offsetWidth || window.innerWidth || 1;
+      track.style.scrollBehavior = 'auto';
+      track.style.scrollSnapType = 'none';
+      track.scrollLeft = 1 * w;
+      void track.offsetWidth;
+
+      syncUI(0);
+      resetProgress();
+
+      requestAnimationFrame(() => {
+        track.style.scrollBehavior = 'smooth';
+        track.style.scrollSnapType = 'x mandatory';
+        isInitializing = false;
+        // Start animation loop immediately on load
+        cancelAnimationFrame(animFrameId);
+        lastTimestamp = null;
+        animFrameId = requestAnimationFrame(progressLoop);
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initializeSlider);
+    } else {
+      initializeSlider();
+    }
+  })();
+</script>
+
+</body>
+</html>
